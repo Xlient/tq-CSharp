@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-        twilioquest_badflybot: {
+        all_bot_tiles: {
             fileName: "all-bots.png",
             frameDimensions: {
                 width: 24,
@@ -11,12 +11,12 @@ module.exports = {
     
     events: {
         onMapDidLoad: (self) => {
-          self.playAnimation("idle");
+          self.playAnimation("idle",true);
         }
     },
     properties: {
         sprite: {
-            spriteSheet: "twilioquest_badflybot",
+            spriteSheet: "all_bot_tiles",
             defaultFrameIndex: 0,
             // We'll not use this feature, so we should turn it off
             useGidAsDefaultFrameIndex: false,

@@ -1,0 +1,15 @@
+{
+  "title": "Example Objective",
+  "description": "Install  the .Net Core SDK on your computer so you can write and execute C# code.",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "blala"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

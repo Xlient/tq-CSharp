@@ -52,7 +52,7 @@
          "image":"..\/objects\/bad-bot\/icon.png",
          "imageheight":24,
          "imagewidth":24,
-         "type":"bad-bot"
+         "type":"dotnet-bot"
         }],
  "tilewidth":24,
  "type":"tileset",
