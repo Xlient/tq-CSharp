@@ -1,5 +1,11 @@
+const CEDRIC_ARROW = "floating_arrow_cedric";
 module.exports = function(event, world) {
-  console.log(`VR Template: ${event.name}`);
-  console.log(event);
-  console.log(world);
+
+  world.showEntities(CEDRIC_ARROW, 0);
+  if (event.name === "conversationDidEnd")
+  {
+    world.screenShake(2,1);
+    world.hideEntities(CEDRIC_ARROW);
+  }
+  
 }

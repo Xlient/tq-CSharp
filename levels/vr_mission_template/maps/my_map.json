@@ -121,8 +121,8 @@
                  "type":"player",
                  "visible":true,
                  "width":0,
-                 "x":372,
-                 "y":457.666666666667
+                 "x":395.333333333333,
+                 "y":303
                 }, 
                 {
                  "height":0,
@@ -274,7 +274,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"strings_basics"
+                         "value":"basic_operations"
                         }],
                  "rotation":0,
                  "type":"",

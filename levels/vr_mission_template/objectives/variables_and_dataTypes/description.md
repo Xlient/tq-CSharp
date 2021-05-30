@@ -1,21 +1,26 @@
-# Example Objective
+# Declaring Variables
 
 <div class="aside">
 <h3>To-Do List</h3>
 <ul>
-  <li>It's good to keep high level tasks here.</li>
-  <li>Let players know when to click <em>HACK</em>.</li>
+  <li>Declare a variable of type <code> string </code> and name it<code> laser </code></li>
+  <li> Assign it the value of <code> "OFF" </code> </li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+Variables are containers for storing data values. Lets create one!
+In order to use a variable in our program we must declare it; giving the variable a name and a type.
 
-## You can make sub headers with more information
-
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
-
-```js
-const areCodeSamplesVeryHelpful = true;
+Lets see an example
+```cs
+ string myname = "John";
 ```
+In your project from the last objective declare a variable of type <code> string </code> and name it <code> laser </code>.
+Assign it the value of <code> "OFF" </code>. Modify the <code>Console.WriteLine()</code> method to print your new variable
+Your code should look similar to the example below.
+```cs
 
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+Console.WriteLine(myname);
+
+``` 
+When your're done modifying your code click the _HACK_ button.

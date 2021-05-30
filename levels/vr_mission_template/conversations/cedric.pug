@@ -6,7 +6,6 @@ conversation(display_name="Cedric")
       statement#final
       responses
 
-when
 
     when "who_are_you"
       statement#cedric
@@ -16,24 +15,26 @@ when
         response#you_seem_nice.
           You seem nice!
 
-when "what_can_i_expect_to_learn"
-      statement#mission
-      responses
-        response#what_was_that_noise.
-          Nice to meet you!
-when "what_was_that_noise"
-      statement#explosion
-      responses
-        response#ok
+    when "what_can_i_expect_to_learn"
+        statement#mission
+        responses
+          response#what_was_that_noise.
+           What was that noise!
+
+    when "what_was_that_noise"
+          statement#explosion.
+          responses
+            response#ok.
+              okay
     default
       statement#default
       responses
         response#who_are_you.
-          Hello, who are you?
+              Hello, who are you?
         response#what_can_i_expect_to_learn.
-           What can i expect to learn?
+              What can i expect to learn?
          
-
+         
   statements
     statement#default
       text.
@@ -49,13 +50,15 @@ when "what_was_that_noise"
          Operator - It seems that an explosion has occurred in the development center. I wonder i it has to anything to do with,
          kyle or worse a unexpected behavior in the dotnet bots. I believe you should investigate this at your earliest convenience. 
 
-      statement#mission
+    statement#mission
       text.
        Operator - I am glad you inquired. Our research and development team has recently uncovered a new type bot in the cloud.
        They call themselves #[span.highlight Dotnet Bots] and speak a language called C# (See-Sharp) I believe the research is going well in the 
        development center now-
       speech.
-         
+       Operator - I am glad you inquired. Our research and development team has recently uncovered a new type bot in the cloud.
+       They call themselves #[span.highlight Dotnet Bots] and speak a language called C# (See-Sharp) I believe the research is going well in the 
+       development center now-
     statement#final
       text.
         It is in your hands now Operator
