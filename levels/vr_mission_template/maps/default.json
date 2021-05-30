@@ -149,12 +149,12 @@
                         {
                          "name":"hackable",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"example_objective2"
+                         "value":"variables_and_dataTypes"
                         }],
                  "rotation":0,
                  "type":"",
@@ -329,6 +329,17 @@
                  "height":86.6666666666667,
                  "id":114,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"first_Csharp_program"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -349,7 +360,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"first_Csharp_Project"
+                         "value":"first_Csharp_program"
                         }],
                  "rotation":0,
                  "type":"terminal",

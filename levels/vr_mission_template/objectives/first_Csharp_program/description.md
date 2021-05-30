@@ -1,21 +1,32 @@
-# Example Objective
+# Your first C# program
 
 <div class="aside">
 <h3>To-Do List</h3>
 <ul>
-  <li>It's good to keep high level tasks here.</li>
-  <li>Let players know when to click <em>HACK</em>.</li>
+  <li>Open your project in an editor</li>
+  <li> Modify your code to print "Hello Cloud!" </li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+We're making great progress, lets proceed by taking a look at our project we just made.
+Navigate to your project folder and open up it up in the code editor of choice.
+Open your <code>program.cs <code> file
 
-## You can make sub headers with more information
-
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
-
-```js
-const areCodeSamplesVeryHelpful = true;
+when you ran
+```cmd
+dotnet new console -n myapp
 ```
 
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+A new console application was made for you with some code to get you started. It's a simple program that prints the message "Hello World!". 
+It used the  <code>Console.WriteLine()</code> method to print that message. What about the rest of the code?
+
+## Your task
+
+Modify the <code>Console.WriteLine()</code> method to print "Hello Cloud!"
+Make sure your code looks <em> exactly </em> like the example.
+```cs
+
+Console.WriteLine("Hello Cloud!");
+```
+
+When your done modifying your code click the _HACK_ button.

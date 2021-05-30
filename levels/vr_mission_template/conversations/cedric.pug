@@ -2,8 +2,11 @@ conversation(display_name="Cedric")
   case lastResponse
     when "nice_to_meet"
     when "you_seem_nice"
+    when "ok"
       statement#final
       responses
+
+when
 
     when "who_are_you"
       statement#cedric
@@ -13,11 +16,23 @@ conversation(display_name="Cedric")
         response#you_seem_nice.
           You seem nice!
 
+when "what_can_i_expect_to_learn"
+      statement#mission
+      responses
+        response#what_was_that_noise.
+          Nice to meet you!
+when "what_was_that_noise"
+      statement#explosion
+      responses
+        response#ok
     default
       statement#default
       responses
         response#who_are_you.
           Hello, who are you?
+        response#what_can_i_expect_to_learn.
+           What can i expect to learn?
+         
 
   statements
     statement#default
@@ -25,9 +40,22 @@ conversation(display_name="Cedric")
         Welcome aboard the #[span.highlight Fog Owl!]
       speech.
         Welcome aboard the #[break(strength="medium")] Fog Owl!
+         
     statement#cedric
       text.
         I am Cedric, your Cloud navigational assistant!
+    statement#explosion 
+       text.
+         Operator - It seems that an explosion has occurred in the development center. I wonder i it has to anything to do with,
+         kyle or worse a unexpected behavior in the dotnet bots. I believe you should investigate this at your earliest convenience. 
+
+      statement#mission
+      text.
+       Operator - I am glad you inquired. Our research and development team has recently uncovered a new type bot in the cloud.
+       They call themselves #[span.highlight Dotnet Bots] and speak a language called C# (See-Sharp) I believe the research is going well in the 
+       development center now-
+      speech.
+         
     statement#final
       text.
-        Thank you! Now get exploring!
+        It is in your hands now Operator

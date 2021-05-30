@@ -1,5 +1,5 @@
 # The "Help" Tab
 
-We may remove this tab and content in the future, but in the current iteration of TwilioQuest, this is where you would put more hand-holdy content intended to guide the player through what needed to be done.
+What about the rest of the code in the application? What is using? what is main?
 
-We find that what works better is linking to external resources on the web, rather than recreatign a tutorial here.
+To get some context on the program you just made check out this <a href="https://channel9.msdn.com/Series/CSharp-101/CSharp-Hello-World-Explained?term=c%23&lang-en=true"> video </a>
