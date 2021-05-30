@@ -1,10 +1,4 @@
-/*
-In your validation code, you can require core Node.js modules,
-third-party modules from npm, or your own code, just like a regular
-Node.js module (since that's what this is!)
-*/
-const assert = require("assert");
-const R = require("ramda");
+
 const { isOption } = require("../lib/installObj_helper");
 
 

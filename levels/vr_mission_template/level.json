@@ -1,6 +1,6 @@
 {
   "title": "Bot.NET",
-  "description": "This is an example of how to create a 'training mission' for the VR training environment aboard the Fog Owl!",
+  "description": "A recent security incident in the R&D center has lead the newly discovered dotnet bots to go crazy. Help Kyle get the situation under control to keep everyone safe",
   "mission_icon": "mission_icon.png",
   "is_mission": true,
   "priority": 1,

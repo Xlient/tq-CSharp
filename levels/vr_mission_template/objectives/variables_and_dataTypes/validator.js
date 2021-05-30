@@ -1,9 +1,9 @@
 
 module.exports = async function (helper) {
 
-  const codePath = helper.env.CSHARP_WORKSPACE_PATH + "\/program.cs";
+  const codePath = helper.env.CSHARP_WORKSPACE_PATH;
   
-  exec('dotnet run --project validate ${codePath}', {cwd: ".\/validate"} ,(error, stdout, stderr) => {
+  exec('dotnet run --project validate ${codePath}\\program.cs', {cwd: ".\\validate"} ,(error, stdout, stderr) => {
     if (error || stdout.indexOf('FAIL') == 1) {
       helper.fail()
       return;
