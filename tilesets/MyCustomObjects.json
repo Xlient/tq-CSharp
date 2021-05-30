@@ -8,7 +8,7 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":2,
+ "tilecount":3,
  "tiledversion":"1.6.0",
  "tileheight":24,
  "tiles":[
@@ -49,10 +49,16 @@
         }, 
         {
          "id":1,
-         "image":"..\/objects\/bad-bot\/icon.png",
+         "image":"..\/objects\/dotnet-bot\/icon.png",
          "imageheight":24,
          "imagewidth":24,
          "type":"dotnet-bot"
+        }, 
+        {
+         "id":2,
+         "image":"..\/..\/..\/animated-green-machine\/icon.png",
+         "imageheight":24,
+         "imagewidth":24
         }],
  "tilewidth":24,
  "type":"tileset",

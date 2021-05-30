@@ -3,19 +3,25 @@
 <div class="aside">
 <h3>To-Do List</h3>
 <ul>
-  <li>It's good to keep high level tasks here.</li>
-  <li>Let players know when to click <em>HACK</em>.</li>
+  <li> Create a new folder to serve as a workspace</li>
+  <li> Create a new project in your new folder</li>
+  <li> Paste the path to your project then press <em>HACK</em>.</li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+The activities from here on will require that you create a C# project on your computer.
+To do this first create a folder to hold your project. Once you have created a folder, you can do one of the following to create your project:
 
-## You can make sub headers with more information
+1. Inside the new folder you made, type in 
+  <code>dotnet new console  -n name of your project </code> in your terminal
 
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
-
-```js
-const areCodeSamplesVeryHelpful = true;
+Here is an example.
+```cmd
+C:\Users\Billy\MyNewFolder> dotnet new console -n myapp
+C:\Users\Billy\MyNewFolder> cd myapp
+C:\Users\Billy\MyNewFolder\myapp>
 ```
 
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+2. If you have Visual Studio IDE installed open it up and create a new project in the folder you just made
+
+Once you have done so, enter <strong>the full path to your project folder</strong> in the text field on the right and click the _HACK_ button.
