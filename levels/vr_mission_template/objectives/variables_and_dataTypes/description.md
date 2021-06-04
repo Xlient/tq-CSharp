@@ -19,8 +19,9 @@ In your project from the last objective declare a variable of type <code> string
 Assign it the value of <code> "OFF" </code>. Modify the <code>Console.WriteLine()</code> method to print your new variable
 Your code should look similar to the example below.
 ```cs
-
+ string myname = "John";
+ 
 Console.WriteLine(myname);
 
 ``` 
-When your're done modifying your code click the _HACK_ button.
+When you're done modifying your code click the _HACK_ button.

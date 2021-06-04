@@ -4,7 +4,7 @@ const { NiceError } = require('../../validation');
 
 module.exports = async helper => {
   try {
-    const { workspacePath } = helper.validationFields;
+    const { workspacePath, codePath} = helper.validationFields;
 
     if (!workspacePath) {
       throw new NiceError(`
@@ -13,8 +13,9 @@ module.exports = async helper => {
     }
 
 
-    const exists = await jetpack.existsAsync(workspacePath);
-    if (!exists) {
+    const dirExists = await jetpack.existsAsync(workspacePath);
+    const fileExists = await jetpack.existsAsync(codePath);
+    if (!dirExists) {
       throw new NiceError(`
         We couldn't find a directory at the path you provided. 
         Please double check that the directory path you typed in 
@@ -22,6 +23,13 @@ module.exports = async helper => {
       `);
     }
 
+    if (!fileExists) {
+      throw new NiceError(`
+        We couldn't find a file at the path you provided. 
+        Please double check that the directory path you typed in 
+        the text field is correct.
+      `);
+    }
   
           helper.success(`
           `,
@@ -29,6 +37,10 @@ module.exports = async helper => {
               {
                 name: 'CSHARP_WORKSPACE_PATH',
                 value: workspacePath,
+              },
+              {
+                name: 'CSHARP_WORKSPACE_CODE',
+                value: codePath,
               },
             ]
           );

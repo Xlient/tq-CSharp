@@ -1,5 +1,5 @@
 {
-  "title": "Rise of Bot.NET: Create a Workspace ",
+  "title": "Create a Project ",
   "description": "</strong>Create a folder </strong> on your computer and project for all your C# code related to this investigation",
   "validation_fields": [
     {
@@ -7,6 +7,12 @@
       "type": "text",
       "placeholder": "type your answer here",
       "label": "Paste in the full path to a folder on your computer where you will keep all your C# projects for TwilioQuest "
+    },
+    {
+      "name": "codePath",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Paste in the full path to your Program.cs file in the folder you just created."
     }
   ],
   "rewards": {

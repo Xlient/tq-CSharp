@@ -8,7 +8,7 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":3,
+ "tilecount":4,
  "tiledversion":"1.6.0",
  "tileheight":24,
  "tiles":[
@@ -57,6 +57,12 @@
         {
          "id":2,
          "image":"..\/..\/..\/animated-green-machine\/icon.png",
+         "imageheight":24,
+         "imagewidth":24
+        }, 
+        {
+         "id":3,
+         "image":"..\/spritesheets\/icon.png",
          "imageheight":24,
          "imagewidth":24
         }],
