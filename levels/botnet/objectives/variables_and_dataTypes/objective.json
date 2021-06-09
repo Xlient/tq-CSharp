@@ -1,0 +1,15 @@
+  {
+  "title": "Variable and Basic Data types",
+  "description": "Declare and use variables and learn about  basic data types",
+  "validation_fields": [
+    {
+      "name": "answer",
+      "type": "text",
+      "placeholder": "____ source  _________ platform",
+      "label": "What is .NET?"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

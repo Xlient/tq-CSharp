@@ -1,0 +1,64 @@
+conversation(display_name="Cedric")
+  case lastResponse
+    when "nice_to_meet"
+    when "you_seem_nice"
+    when "ok"
+      statement#final
+      responses
+
+
+    when "who_are_you"
+      statement#cedric
+      responses
+        response#nice_to_meet.
+          Nice to meet you!
+        response#you_seem_nice.
+          You seem nice!
+
+    when "what_can_i_expect_to_learn"
+        statement#mission
+        responses
+          response#what_was_that_noise.
+           Uh ... What was that noise?
+
+    when "what_was_that_noise"
+          statement#explosion.
+          responses
+            response#ok.
+              okay
+    default
+      statement#default
+      responses
+        response#who_are_you.
+              Hello, who are you?
+        response#what_can_i_expect_to_learn.
+              What can i expect to learn?
+         
+         
+  statements
+    statement#default
+      text.
+        Welcome aboard the #[span.highlight Fog Owl!]
+      speech.
+        Welcome aboard the #[break(strength="medium")] Fog Owl!
+         
+    statement#cedric
+      text.
+        I am Cedric, your Cloud navigational assistant!
+    statement#explosion 
+       text.
+         Operator - It seems that an explosion has occurred in the development center. I wonder if it has to anything to do with
+         Kyle  or worse unexpected behavior in the #[span.highlight Dotnet Bots]. I believe you should investigate this matter at your earliest convenience. 
+
+    statement#mission
+      text.
+       Operator - I am glad you inquired, Our research and development team has recently uncovered a new type bot in the cloud.
+       They call themselves #[span.highlight Dotnet Bots] and speak a language called C# (See-Sharp) I believe the research is going well in the 
+       development center now-
+      speech.
+       Operator - I am glad you inquired. Our research and development team has recently uncovered a new type bot in the cloud.
+       They call themselves #[span.highlight Dotnet Bots] and speak a language called C# (See-Sharp) I believe the research is going well in the 
+       development center now-
+    statement#final
+      text.
+        It is in your hands now Operator
