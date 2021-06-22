@@ -41,9 +41,9 @@ namespace Validate
                 SyntaxTree solutionSyntaxTree = CSharpSyntaxTree.ParseText(solutionCode);
 
                 // checking the tree for  syntax errors 
-                if (TreeErrorCheck(syntaxTree) == false)
-                    throw new Exception("Syntax errors found");
-                
+                 TreeErrorCheck(syntaxTree, solutionSyntaxTree);
+
+                    
                 SyntaxNode root = syntaxTree.GetRoot();
                 SyntaxNode solutionRoot = solutionSyntaxTree.GetRoot();
 
@@ -51,7 +51,7 @@ namespace Validate
                 if (CompareTrees(in solutionRoot, in root, out scriptCode) == false)
                 {
                     ObjectiveStatus.Score = SCORE.FAIL;
-                    ObjectiveStatus.Feedback = "Make sure your code looks like the example found in the objective!";
+                    ObjectiveStatus.Feedback = "Make sure your code looks like the example code found in the objective!";
                 }
                 else
                 {
@@ -63,7 +63,7 @@ namespace Validate
             catch (Exception e)
             {
                 ObjectiveStatus.Score = SCORE.FAIL;
-                ObjectiveStatus.Feedback = "something went wrong in your code : " + e.Message;
+                ObjectiveStatus.Feedback = $"{e.Message }, {e.StackTrace}";
             }
 
             Console.WriteLine($"{ObjectiveStatus.Score} \n{ObjectiveStatus.Feedback}");
@@ -90,21 +90,22 @@ private static void EvaluateCode(string scriptCode)
         }
 
 
-         private static bool CompareTrees(in SyntaxNode solutionRoot, in SyntaxNode root, out string allcode)
+ private static bool CompareTrees(in SyntaxNode solutionRoot, in SyntaxNode root, out string allcode)
         {
-            //geting the full block of code inside  the main function to run later
+            //geting the full block of code inside  the main function to  compare & run later
             var codeblock = root.DescendantNodes()
                 .OfType<BlockSyntax>()
-                .Single();
+                .SingleOrDefault();
+                
 
             allcode = codeblock.Statements.ToString();
 
             var solutionCodeBlock = solutionRoot.DescendantNodes()
-                 .OfType<BlockSyntax>()
-                 .Single();
+                .OfType<BlockSyntax>() 
+                .SingleOrDefault();
 
 
-             // comparing the code within the main function
+             // comparing the users tree with the solution ignoring white space and other trivia.
             if (codeblock.IsEquivalentTo(solutionCodeBlock, false))
             {
                 return true;
@@ -113,31 +114,47 @@ private static void EvaluateCode(string scriptCode)
             return false;
            
         }
-            private static bool TreeErrorCheck(SyntaxTree syntaxTree)
+        private static void TreeErrorCheck(SyntaxTree syntaxTree, SyntaxTree solutionSyntaxTree = null)
             {
+                if( syntaxTree == null || solutionSyntaxTree == null )
+                   { throw new ArgumentNullException("The Syntax tree is null");
+                   }
+        
                 // looks over the tree for any syntax errors.
-                IEnumerable<Diagnostic> diagnostics = syntaxTree.GetDiagnostics();
-                if (diagnostics.Count() == 0) 
-                        return true;
+                List<Diagnostic> diagnostics = syntaxTree.GetDiagnostics().ToList();
+                if (diagnostics.Count() != 0) 
+                     {
+                          throw new Exception($"errors found in tree: {diagnostics[0]}");
+                     }
 
-                return false;
+
+                List<Diagnostic> solutionDiagnostics = solutionSyntaxTree.GetDiagnostics().ToList();
+                if (solutionDiagnostics.Count() != 0) 
+                       { 
+                           throw new Exception($"errors found in solution tree: {solutionDiagnostics[0]}");
+                       }
+                
                 
             }
 
 
            //  The idea here is to get the objective name  passed in to the program and 
-           // return the appropriate solution code so we can parse it.
-            private static string GetObjectiveSolution(string objectiveName)
+         // return the appropriate solution code so we can parse it.
+        private static string GetObjectiveSolution(string objectiveName)
             {
                 string solution ="";
                 var objectiveSolution = new ObjectiveSolutions();
-              if (objectiveName.Equals("firstCsharpProgam"))
+              if (objectiveName.Equals("firstCsharpProgram"))
               {
                   solution = objectiveSolution.HelloCloudSolution;
               }
               else if (objectiveName.Equals("Variables"))
               {
                   solution = objectiveSolution.VariablesSolution;
+              }
+              else 
+              {
+                  throw new Exception($"Objective {objectiveName}  not found");
               }
               return solution;
             }

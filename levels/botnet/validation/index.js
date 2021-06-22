@@ -19,8 +19,10 @@ async function ExecuteCode(codePath, arg1 ="", arg2="")
         let bufferedStdout = "";
         let bufferedStderr = "";
 
+        
+
      try{
-      const dotnetRun = spawn('dotnet',['run',`${codePath}`,arg1, arg2],
+      const dotnetRun = spawn('dotnet',['run',`${codePath}`,`${arg1}`, `${arg2}`],
       { cwd: pathToValidator , shell: true});
 
         dotnetRun.on('error', (err) => {

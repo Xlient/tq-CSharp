@@ -15,9 +15,9 @@ class Program
     {
         static void Main(string[] args)
         {
-          Console.WriteLine(""Hello Cloud!"");
+            Console.WriteLine(""Hello Cloud!"");
+           
         }
-
     }";
 
 private  readonly string _variableSolution = @"
