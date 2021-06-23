@@ -1,0 +1,49 @@
+conversation(display_name="Kyle")
+  case lastResponse
+    when "nice_to_meet"
+    when "you_seem_nice"
+      statement#final
+      responses
+
+    when "who_are_you"
+      statement#intro
+      responses
+        response#nice_to_meet.
+          Nice to meet you!
+        response#you_seem_nice.
+          You seem nice!
+
+    when "what_should_we_do"
+      statement#mission
+      responses
+        response#nice_to_meet.
+          Nice to meet you!
+        response#you_seem_nice.
+          You seem nice!
+
+    default
+      statement#default
+      responses
+        response#who_are_you.
+          Hello, who are you?
+        response#what_should_we_do.
+          What should we do?
+
+  statements
+    statement#default
+      text.
+        You came at the right time , the Dotnet bots have gone crazy and have started destroying the Research and Development center.  
+        I knew that email attachment I downloaded was fishy but before i could change my mind to delete it , it took over!
+        We have to do something!
+    statement#mission
+      text.
+        I think I may know a way to resolve the situation, but it won't be easy to reach the main computer to execute it.
+        You'll  have to familiarize yourself with C# in order to take down the barriers along the way, Only then can we take
+        the computer offline and restore it and the dotnet bots to normal function.
+    statement#intro
+      text.
+        OH! I'm sorry, I forgot to introduce myself. I'm Kyle, an assistant here at the research and development center.
+
+    statement#final
+      text.
+        Thank you! Now get exploring!
