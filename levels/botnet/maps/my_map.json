@@ -574,30 +574,7 @@
          "tilewidth":16
         }, 
         {
-         "columns":0,
          "firstgid":12080,
-         "grid":
-            {
-             "height":1,
-             "orientation":"orthogonal",
-             "width":1
-            },
-         "margin":0,
-         "name":"kyle2",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":288,
-         "tiles":[
-                {
-                 "id":0,
-                 "image":"..\/..\/..\/images\/converstions\/kyleIdle.png",
-                 "imageheight":288,
-                 "imagewidth":144
-                }],
-         "tilewidth":144
-        }, 
-        {
-         "firstgid":12081,
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,

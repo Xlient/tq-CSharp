@@ -52,6 +52,29 @@
          "image":"..\/objects\/dotnet-bot\/icon.png",
          "imageheight":24,
          "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":0,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":0,
+                     "x":12.727031685006,
+                     "y":12.854302001856
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "type":"dotnet-bot"
         }, 
         {
@@ -64,7 +87,31 @@
          "id":5,
          "image":"..\/objects\/kyle\/icon.png",
          "imageheight":48,
-         "imagewidth":24
+         "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":46.3263953334217,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":24.1813602015113,
+                     "x":1.90905475275089,
+                     "y":3.3090282381016
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"kyle"
         }],
  "tilewidth":24,
  "type":"tileset",
