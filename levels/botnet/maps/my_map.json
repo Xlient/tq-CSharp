@@ -65,8 +65,8 @@
                  "type":"player",
                  "visible":true,
                  "width":0,
-                 "x":166.666666666667,
-                 "y":286.666666666667
+                 "x":158.666666666667,
+                 "y":267.166666666667
                 }, 
                 {
                  "height":36.6666666666667,
@@ -123,24 +123,6 @@
                  "width":0,
                  "x":395.333333333333,
                  "y":303
-                }, 
-                {
-                 "height":0,
-                 "id":109,
-                 "name":"kyle",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"conversation",
-                         "type":"string",
-                         "value":"kyle"
-                        }],
-                 "rotation":0,
-                 "type":"npc",
-                 "visible":true,
-                 "width":0,
-                 "x":109.666666666666,
-                 "y":283.666666666666
                 }, 
                 {
                  "gid":11907,
@@ -280,20 +262,8 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":97.3333333333332,
+                 "x":94.8333333333332,
                  "y":362.666666666667
-                }, 
-                {
-                 "gid":11908,
-                 "height":24,
-                 "id":189,
-                 "name":"",
-                 "rotation":0,
-                 "type":"asp-monster",
-                 "visible":true,
-                 "width":24,
-                 "x":484,
-                 "y":268.666666666667
                 }, 
                 {
                  "gid":10011,
@@ -355,92 +325,28 @@
                  "y":418.666666666667
                 }, 
                 {
-                 "height":16.6666666666667,
-                 "id":195,
+                 "gid":11910,
+                 "height":24,
+                 "id":205,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"hackable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":"first_Csharp_Project"
-                        }],
                  "rotation":0,
-                 "type":"terminal",
+                 "type":"asp-monster",
                  "visible":true,
-                 "width":43.9999999999999,
-                 "x":218.666666666667,
-                 "y":246.666666666667
+                 "width":24,
+                 "x":482,
+                 "y":261
                 }, 
                 {
+                 "gid":11911,
                  "height":48,
-                 "id":197,
+                 "id":215,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"hackable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":""
-                        }],
                  "rotation":0,
-                 "type":"terminal",
+                 "type":"kyle",
                  "visible":true,
-                 "width":17.3333333333333,
-                 "x":194.666666666667,
-                 "y":359.333333333333
-                }, 
-                {
-                 "height":50,
-                 "id":198,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"hackable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":""
-                        }],
-                 "rotation":0,
-                 "type":"terminal",
-                 "visible":true,
-                 "width":21.3333333333333,
-                 "x":410,
-                 "y":189.333333333333
-                }, 
-                {
-                 "height":28.6666666666667,
-                 "id":199,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"hackable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":""
-                        }],
-                 "rotation":0,
-                 "type":"terminal",
-                 "visible":true,
-                 "width":21.3333333333333,
-                 "x":434.666666666667,
-                 "y":386
+                 "width":24,
+                 "x":96.5,
+                 "y":297
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -502,7 +408,7 @@
          "y":0
         }],
  "nextlayerid":49,
- "nextobjectid":203,
+ "nextobjectid":216,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.6.0",
@@ -653,6 +559,23 @@
         {
          "firstgid":11906,
          "source":"..\/..\/..\/tilesets\/MyCustomObjects.json"
+        }, 
+        {
+         "columns":24,
+         "firstgid":11912,
+         "image":"..\/..\/..\/..\/..\/Games\/Tilesets\/Modern tiles_Free\/Characters_free\/Adam_16x16.png",
+         "imageheight":224,
+         "imagewidth":384,
+         "margin":0,
+         "name":"kyle",
+         "spacing":0,
+         "tilecount":168,
+         "tileheight":32,
+         "tilewidth":16
+        }, 
+        {
+         "firstgid":12080,
+         "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
  "type":"map",

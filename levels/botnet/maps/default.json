@@ -58,8 +58,8 @@
                  "type":"player",
                  "visible":true,
                  "width":0,
-                 "x":162,
-                 "y":270
+                 "x":178.666666666667,
+                 "y":258.666666666667
                 }, 
                 {
                  "height":6,
@@ -230,24 +230,6 @@
                  "y":430
                 }, 
                 {
-                 "height":0,
-                 "id":109,
-                 "name":"cedric",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"conversation",
-                         "type":"string",
-                         "value":"cedric"
-                        }],
-                 "rotation":0,
-                 "type":"npc",
-                 "visible":true,
-                 "width":0,
-                 "x":118.333333333333,
-                 "y":295
-                }, 
-                {
                  "gid":10011,
                  "height":41.3333333333334,
                  "id":110,
@@ -280,8 +262,8 @@
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":194,
-                 "y":330
+                 "x":196.666666666667,
+                 "y":320
                 }, 
                 {
                  "gid":10012,
@@ -370,15 +352,16 @@
                  "y":204
                 }, 
                 {
-                 "height":32.6666666666667,
-                 "id":118,
+                 "gid":10021,
+                 "height":32,
+                 "id":121,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0.666666666666686,
-                 "x":395.333333333333,
-                 "y":202.666666666667
+                 "width":32,
+                 "x":100,
+                 "y":293.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -426,7 +409,7 @@
          "y":0
         }],
  "nextlayerid":44,
- "nextobjectid":119,
+ "nextobjectid":122,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.6.0",
@@ -452,6 +435,10 @@
         {
          "firstgid":10014,
          "source":"..\/..\/..\/tilesets\/MyCustomObjects.json"
+        }, 
+        {
+         "firstgid":10020,
+         "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
  "type":"map",

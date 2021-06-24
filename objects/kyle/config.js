@@ -1,22 +1,22 @@
 module.exports = {
   spriteSheets: {
-    kyle_npc_tiles: {
+    kyle_idle: {
       fileName: "kyle.png",
       frameDimensions: {
-        width: 24,
-        height: 24,
+        width: 16,
+        height: 32,
       },
     },
   },
-
-  events: {
-    onMapDidLoad: (self) => {
-      self.playAnimation("idle", true);
+  animations: {
+    idle: {
+      frames: [43,44,45, 46, 47],
+      frameRate: 5,
     },
   },
   properties: {
     sprite: {
-      spriteSheet: "kyle_npc_tiles",
+      spriteSheet: "kyle_idle",
       defaultFrameIndex: 0,
       // We'll not use this feature, so we should turn it off
       useGidAsDefaultFrameIndex: false,
@@ -24,10 +24,14 @@ module.exports = {
       layers: [],
     },
   },
-  animations: {
-    idle: {
-      frames: [0, 1, 2, 3, 4],
-      frameRate: 5,
+  events: {
+    onMapDidLoad: (self) => {
+      self.playAnimation("idle", true);
     },
+    onPlayerDidInteract: (self, event, world) => {
+      if (event.target.type === 'kyle') {
+        world.startConversation('kyleDefault', 'kyle.png');
+      }
+    }
   },
 };
