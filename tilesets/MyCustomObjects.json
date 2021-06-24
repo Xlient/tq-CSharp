@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":3,
+ "tilecount":4,
  "tiledversion":"1.6.0",
- "tileheight":24,
+ "tileheight":48,
  "tiles":[
         {
          "id":0,
@@ -58,6 +58,12 @@
          "id":4,
          "image":"..\/objects\/asp-monster\/icon.png",
          "imageheight":24,
+         "imagewidth":24
+        }, 
+        {
+         "id":5,
+         "image":"..\/objects\/kyle\/icon.png",
+         "imageheight":48,
          "imagewidth":24
         }],
  "tilewidth":24,
