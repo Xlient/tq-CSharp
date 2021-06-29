@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":4,
+ "tilecount":7,
  "tiledversion":"1.6.0",
- "tileheight":48,
+ "tileheight":2480,
  "tiles":[
         {
          "id":0,
@@ -55,7 +55,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -91,7 +90,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -112,8 +110,103 @@
              "y":0
             },
          "type":"kyle"
+        }, 
+        {
+         "id":8,
+         "image":"switch1.png",
+         "imageheight":216,
+         "imagewidth":216,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }]
+        }, 
+        {
+         "id":9,
+         "image":"switch2.png",
+         "imageheight":216,
+         "imagewidth":216,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }]
+        }, 
+        {
+         "id":10,
+         "image":"computer 2.png",
+         "imageheight":2480,
+         "imagewidth":2480,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "name":"",
+             "objects":[
+                    {
+                     "height":750,
+                     "id":1,
+                     "name":"",
+                     "properties":[
+                            {
+                             "name":"hackable",
+                             "type":"bool",
+                             "value":true
+                            }, 
+                            {
+                             "name":"objectiveName",
+                             "type":"string",
+                             "value":"basic_operations"
+                            }],
+                     "rotation":0,
+                     "type":"terminal",
+                     "visible":true,
+                     "width":458.333333333333,
+                     "x":1050,
+                     "y":1041.66666666667
+                    }, 
+                    {
+                     "height":0,
+                     "id":3,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":0,
+                     "x":1483.33333333333,
+                     "y":1733.33333333333
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }]
         }],
- "tilewidth":24,
+ "tilewidth":2480,
  "type":"tileset",
  "version":"1.6"
 }
