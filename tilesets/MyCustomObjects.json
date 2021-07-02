@@ -8,7 +8,7 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":54,
+ "tilecount":56,
  "tiledversion":"1.6.0",
  "tileheight":480,
  "tiles":[
@@ -415,10 +415,24 @@
         }, 
         {
          "id":59,
-         "image":"Water.png",
+         "image":"..\/objects\/water\/icon.png",
          "imageheight":480,
          "imagewidth":480,
          "type":"water"
+        }, 
+        {
+         "id":60,
+         "image":"banner-side-1.png",
+         "imageheight":76,
+         "imagewidth":19,
+         "type":"neon-sign-3"
+        }, 
+        {
+         "id":61,
+         "image":"banner-coke-1.png",
+         "imageheight":78,
+         "imagewidth":27,
+         "type":"neon-sign-4"
         }],
  "tilewidth":480,
  "type":"tileset",
