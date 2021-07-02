@@ -562,7 +562,7 @@
         }, 
         {
          "columns":24,
-         "firstgid":11912,
+         "firstgid":11966,
          "image":"..\/..\/..\/..\/..\/Games\/Tilesets\/Modern tiles_Free\/Characters_free\/Adam_16x16.png",
          "imageheight":224,
          "imagewidth":384,
@@ -574,7 +574,7 @@
          "tilewidth":16
         }, 
         {
-         "firstgid":12080,
+         "firstgid":12134,
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
