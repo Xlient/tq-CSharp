@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":56,
+ "tilecount":22,
  "tiledversion":"1.6.0",
- "tileheight":480,
+ "tileheight":128,
  "tiles":[
         {
          "id":0,
@@ -112,210 +112,11 @@
          "type":"kyle"
         }, 
         {
-         "id":6,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adadad.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":7,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adadad_1.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":8,
-         "image":"adadwda.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":9,
-         "image":"adadwx.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":10,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adasdasdwx.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":11,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adasdwczsvasvav.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":12,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawdsac.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":13,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx1.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":14,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx2.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":15,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx3.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":16,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx4.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":17,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx5.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":18,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx6.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":19,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx7.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":20,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adawx8.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":21,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/adwdsadada.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":22,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/aewdsac.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":23,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdasdwcczc.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":24,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdasx1.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":25,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdasx2.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":26,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdasx3.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":27,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdasx4.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":28,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/asdwdxzzzz.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":29,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/awdawdwas.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":30,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/cyber_stone.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":31,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/cyber_stone_1.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":32,
-         "image":"..\/objects\/building\/icon.png",
-         "imageheight":64,
-         "imagewidth":64,
-         "type":"buliding"
-        }, 
-        {
-         "id":33,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/dawdc1.png",
-         "imageheight":64,
-         "imagewidth":64
-        }, 
-        {
-         "id":34,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/dawdxzxc.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":35,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/dqqgwads.png",
-         "imageheight":129,
-         "imagewidth":128
-        }, 
-        {
          "id":36,
          "image":"..\/objects\/planet\/icon.png",
          "imageheight":128,
          "imagewidth":128,
          "type":"planet"
-        }, 
-        {
-         "id":37,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/sf_ice.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":38,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/waaxcd.png",
-         "imageheight":128,
-         "imagewidth":128
-        }, 
-        {
-         "id":39,
-         "image":"..\/..\/..\/Games\/Tilesets\/PixelWhale_SF_Project\/Object\/wdsacxzc.png",
-         "imageheight":64,
-         "imagewidth":64
         }, 
         {
          "id":40,
@@ -330,17 +131,10 @@
          "imagewidth":16
         }, 
         {
-         "id":42,
-         "image":"..\/..\/..\/Games\/Tilesets\/warped city files\/ENVIRONMENT\/props\/banner-floor.png",
-         "imageheight":10,
-         "imagewidth":13
-        }, 
-        {
          "id":43,
          "image":"banner-open.png",
          "imageheight":44,
-         "imagewidth":14,
-         "type":"open_neon_sign"
+         "imagewidth":14
         }, 
         {
          "id":44,
@@ -356,7 +150,7 @@
         }, 
         {
          "id":46,
-         "image":"..\/..\/..\/Games\/Tilesets\/warped city files\/ENVIRONMENT\/props\/control-box-1.png",
+         "image":"control-box-1.png",
          "imageheight":30,
          "imagewidth":32
         }, 
@@ -380,7 +174,7 @@
         }, 
         {
          "id":50,
-         "image":"..\/..\/..\/Games\/Tilesets\/warped city files\/ENVIRONMENT\/props\/banner-neon\/banner-neon-1.png",
+         "image":"banner-neon-1.png",
          "imageheight":48,
          "imagewidth":19,
          "type":"banner-neon-1"
@@ -408,7 +202,7 @@
         }, 
         {
          "id":54,
-         "image":"..\/..\/..\/Games\/Tilesets\/warped city files\/ENVIRONMENT\/props\/banner-sushi\/banner-sushi-1.png",
+         "image":"banner-sushi-1.png",
          "imageheight":13,
          "imagewidth":36,
          "type":"banner-sushi"
@@ -416,8 +210,8 @@
         {
          "id":59,
          "image":"..\/objects\/water\/icon.png",
-         "imageheight":480,
-         "imagewidth":480,
+         "imageheight":24,
+         "imagewidth":24,
          "type":"water"
         }, 
         {
@@ -434,7 +228,7 @@
          "imagewidth":27,
          "type":"neon-sign-4"
         }],
- "tilewidth":480,
+ "tilewidth":128,
  "type":"tileset",
  "version":"1.6"
 }
