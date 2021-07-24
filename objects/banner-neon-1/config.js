@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-      scifi_tiles_2: {
+      neon_sign_on: {
         fileName: "neon-sign.png",
         frameDimensions: {
           width: 19,
@@ -11,7 +11,7 @@ module.exports = {
   
     events: {
       onMapDidLoad: (self) => {
-        self.playAnimation("on", true);
+        self.playAnimation("turn_on", true);
       },
     },
     properties: {
@@ -23,7 +23,7 @@ module.exports = {
       },
     },
     animations: {
-      neon_sign_on: {
+      turn_on: {
         frames: [0,1,2,3],
         frameRate: 4,
       },

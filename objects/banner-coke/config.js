@@ -1,24 +1,24 @@
 module.exports = {
  
   spriteSheets: {
-      hacker_effect: {
+      banner_coke: {
           fileName: "all.png",
           frameDimensions: {
-            width: 21,
-            height: 18,
+            width: 27,
+            height: 78,
           },
   },
 },
   animations: {
       display: {
-          frames: [0,1,2,3],
-          frameRate: 4,
+          frames: [0,1,2],
+          frameRate: 3,
         },
   },
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "hacker_effect",
+      spriteSheet: "banner_coke",
       layers: [],
     },
   },

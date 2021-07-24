@@ -1,10 +1,10 @@
 module.exports = {
     spriteSheets: {
-      sushi_sign_on: {
-        fileName: "sushi-sign.png",
+      neon_sign3_on: {
+        fileName: "neon-sign3.png",
         frameDimensions: {
-          width: 36,
-          height: 13,
+          width: 19,
+          height: 76,
         },
       },
     },
@@ -16,7 +16,7 @@ module.exports = {
     },
     properties: {
       sprite: {
-        spriteSheet: "sushi_sign_on",
+        spriteSheet: "neon_sign3_on",
         defaultFrameIndex: 0,
         useGidAsDefaultFrameIndex: false,
         layers: [],
@@ -24,8 +24,8 @@ module.exports = {
     },
     animations: {
       turn_on: {
-        frames: [0,1,2],
-        frameRate: 3,
+        frames: [0,1,2,3],
+        frameRate: 4,
       },
     },
   };

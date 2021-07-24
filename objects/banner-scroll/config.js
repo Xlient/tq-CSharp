@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-      scifi_tiles_2: {
+      neon_scroll_sign_on: {
         fileName: "neon-scroll.png",
         frameDimensions: {
           width: 13,
@@ -11,19 +11,19 @@ module.exports = {
   
     events: {
       onMapDidLoad: (self) => {
-        self.playAnimation("on", true);
+        self.playAnimation("turn_on", true);
       },
     },
     properties: {
       sprite: {
-        spriteSheet: "neon_sign_on",
+        spriteSheet: "neon_scroll_sign_on",
         defaultFrameIndex: 0,
         useGidAsDefaultFrameIndex: false,
         layers: [],
       },
     },
     animations: {
-      neon_sign_on: {
+      turn_on: {
         frames: [0,1,2,3],
         frameRate: 4,
       },
