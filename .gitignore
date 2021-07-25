@@ -103,3 +103,7 @@ dist
 
 # TernJS port file
 .tern-port
+levels/botnet/validation/validate_csharp/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.AssemblyInfo.cs
+levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.AssemblyInfoInputs.cache
+levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
