@@ -50,8 +50,8 @@
         {
          "id":1,
          "image":"..\/objects\/dotnet-bot\/icon.png",
-         "imageheight":24,
-         "imagewidth":24,
+         "imageheight":32,
+         "imagewidth":32,
          "objectgroup":
             {
              "draworder":"index",

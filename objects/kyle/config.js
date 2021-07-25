@@ -1,17 +1,17 @@
 module.exports = {
   spriteSheets: {
     kyle_idle: {
-      fileName: "kyle.png",
+      fileName: "idle.png",
       frameDimensions: {
-        width: 16,
+        width: 32,
         height: 32,
       },
     },
   },
   animations: {
     idle: {
-      frames: [43,44,45, 46, 47],
-      frameRate: 5,
+      frames: [0,1],
+      frameRate: 2,
     },
   },
   properties: {

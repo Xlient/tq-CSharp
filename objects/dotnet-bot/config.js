@@ -1,10 +1,10 @@
 module.exports = {
     spriteSheets: {
-        all_bot_tiles: {
-            fileName: "all-bots.png",
+        spin_attack: {
+            fileName: "Spin-attack_(32 x 32).png",
             frameDimensions: {
-                width: 24,
-                height: 24,
+                width: 32,
+                height: 32,
         },
       },
     },
@@ -16,7 +16,7 @@ module.exports = {
     },
     properties: {
         sprite: {
-            spriteSheet: "all_bot_tiles",
+            spriteSheet: "spin_attack",
             defaultFrameIndex: 0,
             // We'll not use this feature, so we should turn it off
             useGidAsDefaultFrameIndex: false,
@@ -25,17 +25,17 @@ module.exports = {
           },   
     },
     animations: {
-        hurt: {
-            frames: [0, 1, 2, 3, 4],
+        idle: {
+            frames: [0, 1, 2, 3, 4, 5 , 6, 7, 8],
+            frameRate: 9,
+          },
+          spin_attack: {
+            frames: [0, 1, 2, 3, 4,5],
             frameRate: 5,
           },
-          idle: {
-            frames: [5, 6, 7, 8, 9],
-            frameRate: 5,
-          },
-          death: {
-            frames: [10, 11, 12],
-            frameRate: 3,
+          flying: {
+            frames: [0,1],
+            frameRate: 2,
      },
     },
 
