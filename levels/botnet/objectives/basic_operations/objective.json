@@ -1,20 +1,7 @@
 {
   "title": "Basic Operations",
-  "description": "This is what an <strong>objective description</strong> looks like!",
-  "validation_fields": [
-    {
-      "name": "answer1",
-      "type": "text",
-      "placeholder": "type your answer here",
-      "label": "What is the name of the company that makes TwilioQuest?"
-    },
-    {
-      "name": "answer2",
-      "type": "text",
-      "placeholder": "type your answer here",
-      "label": "What is 2 + 2? Write the numerical response below."
-    }
-  ],
+  "description": "Learn about common <strong>Arithmetic operators</strong> ",
+  "validation_fields": [],
   "rewards": {
     "xp": 100
   }

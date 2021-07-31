@@ -20,7 +20,8 @@ namespace Validate
             string sourceCode = "";
             string scriptCode = "";
             
-
+            
+            
             string directory = Path.GetDirectoryName(path);
            
             if (Directory.Exists(directory) == false) 
@@ -114,7 +115,7 @@ private static void EvaluateCode(string scriptCode)
             return false;
            
         }
-        private static void TreeErrorCheck(SyntaxTree syntaxTree, SyntaxTree solutionSyntaxTree = null)
+ private static void TreeErrorCheck(SyntaxTree syntaxTree, SyntaxTree solutionSyntaxTree = null)
             {
                 if( syntaxTree == null || solutionSyntaxTree == null )
                    { throw new ArgumentNullException("The Syntax tree is null");
@@ -140,7 +141,7 @@ private static void EvaluateCode(string scriptCode)
 
            //  The idea here is to get the objective name  passed in to the program and 
          // return the appropriate solution code so we can parse it.
-        private static string GetObjectiveSolution(string objectiveName)
+private static string GetObjectiveSolution(string objectiveName)
             {
                 string solution ="";
                 var objectiveSolution = new ObjectiveSolutions();
@@ -149,6 +150,10 @@ private static void EvaluateCode(string scriptCode)
                   solution = objectiveSolution.HelloCloudSolution;
               }
               else if (objectiveName.Equals("Variables"))
+              {
+                  solution = objectiveSolution.VariablesSolution;
+              }
+              else if (objectiveName.Equals("Operations"))
               {
                   solution = objectiveSolution.VariablesSolution;
               }

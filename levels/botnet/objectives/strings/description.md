@@ -1,4 +1,4 @@
-# Example Objective
+# String of truth
 
 <div class="aside">
 <h3>To-Do List</h3>
@@ -8,9 +8,16 @@
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+As we've learned perviously the data type `String` is a collection of single characters (e.g 'p' 'o' 'p')  strung together to make a string (e.g "pop"). Once you have a string , is there anything else  you can do with it?  Yes, there are many things you can do with strings in C#! You're welcome to view the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0#methods"> documentation </a> for a more comprehensive list of the things you can do with strings but for now we'll discuss just 3 of them briefly.
 
-## You can make sub headers with more information
+#### Triming Strings
+#### Search Strings
+
+#### Format Strings
+
+## Put it all together
+
+TOD0
 
 Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
 
