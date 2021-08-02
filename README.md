@@ -3,14 +3,16 @@
 
 ![Status](https://img.shields.io/badge/Status-Work%20in%20progress-Blueviolet)![GitHub last commit](https://img.shields.io/github/last-commit/xlient/twq-Csharp)
  
- ## Get Started 
+ ## Getting Started 
  
  1. Clone this repo
- 2. Click here for directions on how to enable extentions in TwilioQuest <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
- 
-##  Contributing 💻
+ 2. For directions on how to enable extentions in TwilioQuest <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
+
+
+### Contributing 💻
  if you are interested in fixing issues and contributing directly to the code base, a great way to get started is by checking out
  our [contributing guidelines](.github/CONTRIBUTING.md) _WIP_. Also you're welcome to ask questions in [Github Discussions](https://github.com/Xlient/tq-CSharp/discussions)
+ 
  
 ## All Levels
 
@@ -41,4 +43,3 @@ Help Kyle get the situation under control to keep everyone safe and restore ever
  - [LimeZu](https://limezu.itch.io/)
  - More . .
    
-
