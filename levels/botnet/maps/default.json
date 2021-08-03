@@ -96,7 +96,11 @@
                         {
                          "name":"mapName",
                          "type":"string",
+<<<<<<< Updated upstream
                          "value":"RDLab"
+=======
+                         "value":"R&DCenter"
+>>>>>>> Stashed changes
                         }, 
                         {
                          "name":"playerEntryPoint",
@@ -253,24 +257,6 @@
                  "y":363.333333333333
                 }, 
                 {
-                 "gid":10013,
-                 "height":66.6666666666667,
-                 "id":111,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":"installDotnet_objective"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":196.666666666667,
-                 "y":320
-                }, 
-                {
                  "gid":10012,
                  "height":74.6214713671993,
                  "id":112,
@@ -292,24 +278,6 @@
                  "width":14.0156368816126,
                  "x":220.480983040696,
                  "y":423.142174295973
-                }, 
-                {
-                 "gid":10013,
-                 "height":72,
-                 "id":113,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":"createProject_objective"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":94.6666666666667,
-                 "y":397.333333333334
                 }, 
                 {
                  "gid":10012,
@@ -335,6 +303,7 @@
                  "y":292
                 }, 
                 {
+<<<<<<< Updated upstream
                  "height":0,
                  "id":116,
                  "name":"",
@@ -358,6 +327,9 @@
                 }, 
                 {
                  "gid":10082,
+=======
+                 "gid":10028,
+>>>>>>> Stashed changes
                  "height":32,
                  "id":121,
                  "name":"",
@@ -365,7 +337,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":100,
+                 "x":101.333333333333,
                  "y":293.333333333333
                 }],
          "opacity":1,
@@ -442,7 +414,11 @@
          "source":"..\/..\/..\/tilesets\/MyCustomObjects.json"
         }, 
         {
+<<<<<<< Updated upstream
          "firstgid":10081,
+=======
+         "firstgid":10027,
+>>>>>>> Stashed changes
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
