@@ -96,11 +96,7 @@
                         {
                          "name":"mapName",
                          "type":"string",
-<<<<<<< Updated upstream
-                         "value":"RDLab"
-=======
                          "value":"R&DCenter"
->>>>>>> Stashed changes
                         }, 
                         {
                          "name":"playerEntryPoint",
@@ -303,33 +299,7 @@
                  "y":292
                 }, 
                 {
-<<<<<<< Updated upstream
-                 "height":0,
-                 "id":116,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"hackable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"objectiveName",
-                         "type":"string",
-                         "value":"first_Csharp_program"
-                        }],
-                 "rotation":0,
-                 "type":"terminal",
-                 "visible":true,
-                 "width":0,
-                 "x":395.333333333333,
-                 "y":204
-                }, 
-                {
-                 "gid":10082,
-=======
                  "gid":10028,
->>>>>>> Stashed changes
                  "height":32,
                  "id":121,
                  "name":"",
@@ -414,11 +384,7 @@
          "source":"..\/..\/..\/tilesets\/MyCustomObjects.json"
         }, 
         {
-<<<<<<< Updated upstream
-         "firstgid":10081,
-=======
          "firstgid":10027,
->>>>>>> Stashed changes
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
