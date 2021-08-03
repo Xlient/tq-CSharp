@@ -6,12 +6,13 @@
  ## Getting Started 
  
  1. Clone this repo
- 2. For directions on how to enable extentions in TwilioQuest <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
+ 2. For directions on how to enable extentions in TwilioQuest click <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
 
 
-### Contributing 💻
- if you are interested in fixing issues and contributing directly to the code base, a great way to get started is by checking out
- our [contributing guidelines](.github/CONTRIBUTING.md) _WIP_. Also you're welcome to ask questions in [Github Discussions](https://github.com/Xlient/tq-CSharp/discussions)
+## Contributing 💻
+ if you are interested in fixing issues and contributing directly to the code base, a great way to get started is by checking out our [contributing guidelines](.github/CONTRIBUTING.md) (Still a work in progress) as it outlines how you can contribute to this project.  Also you're welcome to ask questions in [Github Discussions](https://github.com/Xlient/tq-CSharp/discussions) about levels, objectives and so forth.
+ 
+ Keep and eye out for `Help wanted` or `good first issue` labels in the issues tab! Or just jump in.
  
  
 ## All Levels
@@ -32,8 +33,8 @@ Help Kyle get the situation under control to keep everyone safe and restore ever
 ## Special Mentions
    ![Special mentions](https://user-images.githubusercontent.com/35268101/127819876-2f071781-01ee-4f27-a714-a05ee632c7da.gif)
    
-#### A special shout out to the artists whoose artwork that are being currently being used in the game or are planned.
- Please support them in their work  and check them out
+#### A special shout out to the artists  whose artwork is featured in the game or are planned to be in corperated in future levels
+ Please support them in their work  and check them out below!
  
  - [Tazmoe](https://tazmoe.itch.io/)
  - [NYKNCK](https://kvsr.itch.io/)
@@ -41,5 +42,5 @@ Help Kyle get the situation under control to keep everyone safe and restore ever
  - [ansimuz](https://ansimuz.itch.io/)
  - [Exuin](https://emily2.itch.io/)
  - [LimeZu](https://limezu.itch.io/)
- - More . .
+ - More to be listed . .
    
