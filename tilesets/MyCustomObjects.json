@@ -122,7 +122,8 @@
          "id":46,
          "image":"control-box-1.png",
          "imageheight":30,
-         "imagewidth":32
+         "imagewidth":32,
+         "type":"controlBox"
         }, 
         {
          "id":47,

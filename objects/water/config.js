@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-      scifi_tiles_2: {
+      water: {
         fileName: "Water.png",
         frameDimensions: {
           width: 24,
@@ -11,12 +11,12 @@ module.exports = {
   
     events: {
       onMapDidLoad: (self) => {
-        self.playAnimation("on", true);
+        self.playAnimation("water_flowing", true);
       },
     },
     properties: {
       sprite: {
-        spriteSheet: "water_flowing",
+        spriteSheet: "water",
         defaultFrameIndex: 0,
         useGidAsDefaultFrameIndex: false,
         layers: [],
