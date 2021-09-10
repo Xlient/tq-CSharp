@@ -2,6 +2,9 @@
 ![image](https://user-images.githubusercontent.com/35268101/123012588-81b7f480-d390-11eb-84eb-c061979f6f69.png)
 
 ![Status](https://img.shields.io/badge/Status-Work%20in%20progress-Blueviolet)![GitHub last commit](https://img.shields.io/github/last-commit/xlient/twq-Csharp)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
  
  ## Getting Started 
  
