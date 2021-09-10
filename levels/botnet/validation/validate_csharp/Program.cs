@@ -155,7 +155,7 @@ private static string GetObjectiveSolution(string objectiveName)
               }
               else if (objectiveName.Equals("Operations"))
               {
-                  solution = objectiveSolution.VariablesSolution;
+                  solution = objectiveSolution.OperatorsSolution;
               }
               else 
               {

@@ -14,17 +14,22 @@ public ObjectiveSolutions()
 }
 private readonly string _helloCloudSolution = @"
 using System;
-class Program
+namespace MyApp
+  {
+    class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine(""Hello Cloud!"");
            
         }
-    }";
+    }
+}";
 
 private  readonly string _variableSolution = @"
 using System;
+namespace MyApp
+  {
 class Program
     {
         static void Main(string[] args)
@@ -33,19 +38,23 @@ class Program
           Console.WriteLine(laser);
         }
 
-    }";
+    }
+}";
 
 private  readonly string _operatorsSolution = @"
    using System;
-   class Program
+  namespace MyApp
+  {
+    class Program
     {
         static void Main(string[] args)
         {
-          int pin = (144000 % 866) * (4 + 3);
-          Console.WriteLine(pin);
+            int pin = pin = (144000 % 866) * (4 + 3);
+            Console.WriteLine(pin);
+           
         }
-
-    }";
+    }
+}";
 
  
 

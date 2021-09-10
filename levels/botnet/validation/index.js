@@ -10,7 +10,8 @@ class NiceError extends Error {
     }
 }
 
-async function ExecuteCode(codePath, arg1 ="", arg2="")
+// goes through C# validator for static analysis
+async function analyzeAndExecuteCode(codePath, arg1 ="", arg2="")
 {
   return new Promise(async (resolve, reject) => {
 
@@ -62,7 +63,54 @@ async function ExecuteCode(codePath, arg1 ="", arg2="")
   });
 }
 
+//
+async function ExecuteCode(codePath, arg1 = "", arg2 ="")
+{
+  return new Promise(async (resolve, reject) => {
+    console.log(arg1);
+    let bufferedStdout = "";
+    let bufferedStderr = "";
+    try{
+      const dotnetRun = spawn('dotnet',['run',`${codePath}`,`"${arg1}"`, `"${arg2}"`],
+      { cwd: codePath ,shell: true});
+
+          dotnetRun.on('error', (err) => {
+          console.error(`${err}`);
+        });
+
+        dotnetRun.stderr.on('data', (data) => {
+              bufferedStderr += `${data}`;
+          });
+
+        dotnetRun.stdout.on('data', (data) => {
+            
+              bufferedStdout =`${data}`;
+              console.log(bufferedStdout);
+              
+            });
+
+            dotnetRun.on('close', (code) => {
+              
+                resolve({
+
+                    exitCode: code,
+                    stdout: bufferedStdout,
+                    stderr: bufferedStderr
+                });
+              
+            });
+        
+        }    
+        catch(e) 
+        {
+            console.log(e);
+            throw new NiceError(`there was a problem validating your C# code - please try again`);
+        }
+  });
+  }
+
 module.exports = {
     NiceError,
+    analyzeAndExecuteCode: analyzeAndExecuteCode,
     ExecuteCode
 }

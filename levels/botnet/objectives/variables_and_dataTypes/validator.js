@@ -1,10 +1,10 @@
 
-const { ExecuteCode } = require('../../validation');
+const { analyzeAndExecuteCode: analyzeAndExecuteCode } = require('../../validation');
 module.exports = async function (helper) {
 
   try {
      const codePath = helper.env.TQ_CSHARP_WORKSPACE_CODE;
-     const results = await ExecuteCode(codePath,"Variables");
+     const results = await analyzeAndExecuteCode(codePath,"Variables");
 
     if(results.stdout.search("OFF") == -1 && results.stdout.search("PASS") == -1){
       let feedback = results.stdout.split('\n')[1];
