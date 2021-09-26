@@ -8,7 +8,7 @@
  
  ## Getting Started 
  
- 1. Clone this repo
+ 1. Clone this repository into a folder that holds all your twilioquest extension
  2. For directions on how to enable extentions in TwilioQuest click <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
 
 
