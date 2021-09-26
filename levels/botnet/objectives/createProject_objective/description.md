@@ -25,6 +25,4 @@ C:\Users\Billy\MyNewFolder\myapp>
 
 2. If you have Visual Studio IDE installed open it up and create a new project in the folder you just made
 
-Once you have done so, enter <strong>the full path to your project folder</strong> and <strong>the full path to your Program.cs file in your
-project folder</strong>
-in the text field on the right and click the _HACK_ button.
+Once you have done so, enter <strong>the full path to your project folder</strong> and <strong>the full path to your Program.cs file in your project folder</strong> in the text field on the right and click the _HACK_ button.

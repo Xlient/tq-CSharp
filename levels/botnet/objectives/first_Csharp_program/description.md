@@ -18,7 +18,7 @@ dotnet new console -n myapp
 ```
 
 A new console application was made for you with some code to get you started. It's a simple program that prints the message "Hello World!". 
-It used the  <code>Console.WriteLine()</code> method to print that message. What about the rest of the code?
+It used the  <code>Console.WriteLine()</code> method to print that message. If you're wondering about the rest of the code check out this <a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners/Understanding-Your-First-C-Program">video</a> which breaks apart the sample program
 
 ## Your task
 
