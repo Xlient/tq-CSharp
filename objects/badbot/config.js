@@ -1,7 +1,7 @@
 module.exports = {
     spriteSheets: {
-        idle_bot: {
-            fileName: "idle.png",
+        all_tiles: {
+            fileName: "badbot.png",
             frameDimensions: {
                 width: 32,
                 height: 32,
@@ -26,12 +26,12 @@ module.exports = {
     },
     animations: {
         hurt: {
-            frames: [0, 1, 2, 3, 4],
+            frames: [26, 27, 28, 29, 30],
             frameRate: 5,
           },
           idle: {
-            frames: [0,1],
-            frameRate: 1,
+            frames: [0,1 , 2],
+            frameRate: 3,
           },
           walk: {
             frames: [10, 11, 12],

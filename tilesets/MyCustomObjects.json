@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":4,
- "tiledversion":"1.6.0",
- "tileheight":48,
+ "tilecount":6,
+ "tiledversion":"1.7.2",
+ "tileheight":167,
  "tiles":[
         {
          "id":0,
@@ -48,36 +48,6 @@
          "type":"light-green"
         }, 
         {
-         "id":1,
-         "image":"..\/objects\/dotnet-bot\/icon.png",
-         "imageheight":24,
-         "imagewidth":24,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "id":2,
-             "name":"",
-             "objects":[
-                    {
-                     "height":0,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":0,
-                     "x":12.727031685006,
-                     "y":12.854302001856
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "type":"dotnet-bot"
-        }, 
-        {
          "id":4,
          "image":"..\/objects\/asp-monster\/icon.png",
          "imageheight":24,
@@ -91,7 +61,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -112,8 +81,152 @@
              "y":0
             },
          "type":"kyle"
+        }, 
+        {
+         "id":6,
+         "image":"..\/objects\/teleporter\/icon.png",
+         "imageheight":167,
+         "imagewidth":153,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "name":"",
+             "objects":[
+                    {
+                     "height":0,
+                     "id":2,
+                     "name":"",
+                     "polygon":[
+                            {
+                             "x":-13.317384370016,
+                             "y":2.21956406166932
+                            }, 
+                            {
+                             "x":7.54651780967571,
+                             "y":-15.9808612440191
+                            }, 
+                            {
+                             "x":27.5225943646996,
+                             "y":-27.9665071770335
+                            }, 
+                            {
+                             "x":51.0499734183945,
+                             "y":-30.1860712387028
+                            }, 
+                            {
+                             "x":78.5725677830941,
+                             "y":-22.6395534290271
+                            }, 
+                            {
+                             "x":92.7777777777778,
+                             "y":-6.21477937267412
+                            }, 
+                            {
+                             "x":93.2216905901116,
+                             "y":-1.33173843700159
+                            }, 
+                            {
+                             "x":103.875598086124,
+                             "y":-0.887825624667727
+                            }, 
+                            {
+                             "x":105.65124933546,
+                             "y":42.615629984051
+                            }, 
+                            {
+                             "x":90.1143009037746,
+                             "y":43.9473684210526
+                            }, 
+                            {
+                             "x":70.1382243487507,
+                             "y":60.8160552897395
+                            }, 
+                            {
+                             "x":67.4747474747475,
+                             "y":39.0643274853801
+                            }, 
+                            {
+                             "x":91.4460393407762,
+                             "y":22.1956406166933
+                            }, 
+                            {
+                             "x":93.2216905901116,
+                             "y":11.0978203083466
+                            }, 
+                            {
+                             "x":95.8851674641148,
+                             "y":-0.443912812333863
+                            }, 
+                            {
+                             "x":45.7230196703881,
+                             "y":-27.5225943646996
+                            }],
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":0,
+                     "x":25.7469431153642,
+                     "y":78.1286549707602
+                    }, 
+                    {
+                     "height":0,
+                     "id":3,
+                     "name":"",
+                     "polygon":[
+                            {
+                             "x":0,
+                             "y":0
+                            }, 
+                            {
+                             "x":1.3317384370016,
+                             "y":38.6204146730463
+                            }, 
+                            {
+                             "x":13.3173843700159,
+                             "y":38.6204146730463
+                            }, 
+                            {
+                             "x":34.1812865497076,
+                             "y":53.7134502923977
+                            }, 
+                            {
+                             "x":35.5130249867092,
+                             "y":33.2934609250399
+                            }, 
+                            {
+                             "x":15.5369484316853,
+                             "y":-11.5417331206805
+                            }],
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":0,
+                     "x":13.3173843700159,
+                     "y":83.4556087187666
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"teleporter"
+        }, 
+        {
+         "id":7,
+         "image":"..\/objects\/dotnet-bot\/icon.png",
+         "imageheight":23,
+         "imagewidth":22,
+         "type":"dotnet-bot"
+        }, 
+        {
+         "id":8,
+         "image":"..\/objects\/dotnet-bot-2\/icon.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "type":"dotnet-bot-2"
         }],
- "tilewidth":24,
+ "tilewidth":153,
  "type":"tileset",
  "version":"1.6"
 }

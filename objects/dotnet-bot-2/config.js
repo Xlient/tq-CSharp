@@ -1,7 +1,7 @@
 module.exports = {
     spriteSheets: {
         idle_bot: {
-            fileName: "idle.png",
+            fileName: "idle(32 x 32).png",
             frameDimensions: {
                 width: 32,
                 height: 32,
@@ -30,8 +30,8 @@ module.exports = {
             frameRate: 5,
           },
           idle: {
-            frames: [0,1],
-            frameRate: 1,
+            frames: [0,1,2 ,3],
+            frameRate: 2,
           },
           walk: {
             frames: [10, 11, 12],
