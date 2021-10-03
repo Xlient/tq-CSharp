@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":6,
- "tiledversion":"1.7.2",
- "tileheight":167,
+ "tilecount":7,
+ "tiledversion":"1.6.0",
+ "tileheight":2480,
  "tiles":[
         {
          "id":0,

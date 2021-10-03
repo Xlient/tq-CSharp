@@ -8,7 +8,23 @@
 </ul>
 </div>
 
-Variables are containers for storing data values. Lets create one!
+<h2>What are Variables?</h2>
+
+Variables are containers for storing information. A variables name represents the information stored in the variable. This information can be exchanged for different values after its declared.
+
+<h2> What are Data Types?</h2>
+A data type specifies what type of information the variable has.
+Here are some common built-in types in C#
+
+|     Type    | Keyword in C# | Description                                                                           |
+| ----------- | -----------   | -----------------------------------------------------------------------------         |
+|   Boolean   |    bool       | True or False value                                                                   |
+|   Integer   |    int        | Integral Type value ranging from -2,147,483,648 to 2,147,483,647                      |
+|   Double    |    double     | Floating-point numeric types with ~15-17 digit precision(e.g 4.13)                    |
+|   Char      |    char       | A character literal  (e.g 'A' or 'B')  Note: single quotes                            |  
+|   String    |    string     | A sequence of characters  (e.g "Hello")  Note: Double quotes                          |
+
+For a list of more built-in data types see this <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types#built-in-value-types">link</a> Now Lets create a variable!
 In order to use a variable in our program we must declare it; giving the variable a name and a type.
 
 Lets see an example
