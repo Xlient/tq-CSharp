@@ -1,22 +1,22 @@
 module.exports = {
     spriteSheets: {
-        all_tiles: {
-            fileName: "badbot.png",
+        all_computer_tiles: {
+            fileName: "Animated-Monitors-Sheet.png",
             frameDimensions: {
-                width: 64,
-                height: 64,
+                width: 144,
+                height: 96,
         },
       },
     },
     
     events: {
         onMapDidLoad: (self) => {
-          self.playAnimation("idle",true);
+          self.playAnimation("active",true);
         }
     },
     properties: {
         sprite: {
-            spriteSheet: "idle_bot",
+            spriteSheet: "all_computer_tiles",
             defaultFrameIndex: 0,
             // We'll not use this feature, so we should turn it off
             useGidAsDefaultFrameIndex: false,
@@ -25,18 +25,10 @@ module.exports = {
           },   
     },
     animations: {
-        hurt: {
-            frames: [26, 27, 28, 29, 30],
-            frameRate: 5,
-          },
-          idle: {
-            frames: [0,1 , 2],
-            frameRate: 3,
-          },
-          walk: {
-            frames: [10, 11, 12],
-            frameRate: 3,
-     },
+          active: {
+            frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            frameRate: 9,
+          }
     },
 
 };

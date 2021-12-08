@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":7,
- "tiledversion":"1.6.0",
- "tileheight":2480,
+ "tilecount":12,
+ "tiledversion":"1.7.2",
+ "tileheight":167,
  "tiles":[
         {
          "id":0,
@@ -52,35 +52,6 @@
          "image":"..\/objects\/asp-monster\/icon.png",
          "imageheight":24,
          "imagewidth":24
-        }, 
-        {
-         "id":5,
-         "image":"..\/objects\/kyle\/icon.png",
-         "imageheight":48,
-         "imagewidth":24,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "name":"",
-             "objects":[
-                    {
-                     "height":46.3263953334217,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":24.1813602015113,
-                     "x":1.90905475275089,
-                     "y":3.3090282381016
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "type":"kyle"
         }, 
         {
          "id":6,
@@ -210,6 +181,17 @@
              "x":0,
              "y":0
             },
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }],
          "type":"teleporter"
         }, 
         {
@@ -225,6 +207,85 @@
          "imageheight":32,
          "imagewidth":32,
          "type":"dotnet-bot-2"
+        }, 
+        {
+         "id":13,
+         "image":"..\/objects\/kyle\/icon.png",
+         "imageheight":61,
+         "imagewidth":61
+        }, 
+        {
+         "id":14,
+         "image":"..\/objects\/main-computer\/icon.png",
+         "imageheight":106,
+         "imagewidth":143,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }],
+         "type":"main-computer"
+        }, 
+        {
+         "id":16,
+         "image":"..\/objects\/door\/icon.png",
+         "imageheight":96,
+         "imagewidth":144,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }],
+         "type":"door"
+        }, 
+        {
+         "id":17,
+         "image":"..\/objects\/smoke\/icon.png",
+         "imageheight":32,
+         "imagewidth":32
+        }, 
+        {
+         "id":18,
+         "image":"..\/..\/.bundled\/objects\/fo-engine\/icon.png",
+         "imageheight":96,
+         "imagewidth":48,
+         "type":"fo-engine"
+        }, 
+        {
+         "id":20,
+         "image":"..\/objects\/computer2\/icon.png",
+         "imageheight":96,
+         "imagewidth":144,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":""
+                }]
+        }, 
+        {
+         "id":21,
+         "image":"..\/objects\/badbot\/icon.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "type":"badbot"
         }],
  "tilewidth":153,
  "type":"tileset",
