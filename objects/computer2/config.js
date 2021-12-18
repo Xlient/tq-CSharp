@@ -9,9 +9,15 @@ module.exports = {
       },
     },
     
+    animations: {
+      active: {
+        frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        frameRate: 9,
+      }
+},
     events: {
         onMapDidLoad: (self) => {
-          self.playAnimation("active",true);
+          self.playAnimation("active");
         }
     },
     properties: {
@@ -23,12 +29,6 @@ module.exports = {
             // We don't need any layered sprites for the laser barrier
             layers: [],
           },   
-    },
-    animations: {
-          active: {
-            frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-            frameRate: 9,
-          }
     },
 
 };

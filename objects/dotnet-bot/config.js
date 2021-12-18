@@ -1,42 +1,46 @@
 module.exports = {
-    spriteSheets: {
-        idle_bot: {
-            fileName: "idle.png",
-            frameDimensions: {
-                width: 32,
-                height: 32,
-        },
+  animations: {
+    idle: {
+      frames: [0 , 1],
+      frameRate: 1,
+    },
+    walk: {
+      frames: [2 , 3, 4],
+      frameRate: 2,
+    },
+    hurt: {
+      frames: [5],
+      frameRate: 1,
+    },
+  },
+  spriteSheets: {
+    dotnetBot:{
+      fileName: 'dotnet-bot.png',
+      frameDimensions: {
+        width: 32,
+        height: 32,
       },
     },
-    
-    events: {
-        onMapDidLoad: (self) => {
-          self.playAnimation("idle",true);
-        }
-    },
-    properties: {
-        sprite: {
-            spriteSheet: "idle_bot",
-            defaultFrameIndex: 0,
-            // We'll not use this feature, so we should turn it off
-            useGidAsDefaultFrameIndex: false,
-            // We don't need any layered sprites for the laser barrier
-            layers: [],
-          },   
-    },
-    animations: {
-        hurt: {
-            frames: [0, 1, 2, 3, 4],
-            frameRate: 5,
-          },
-          idle: {
-            frames: [0,1],
-            frameRate: 1,
-          },
-          walk: {
-            frames: [10, 11, 12],
-            frameRate: 3,
+  },
+  events:
+  {
+     onMapDidLoad:(self) => 
+     {
+       self.playAnimation("idle");
      },
+  },
+  properties: {
+    sprite: {
+      spriteSheet: "dotnetBot",
+      defaultFrameIndex: 0,
+      layers: [],
     },
-
+    idleAnimations: {
+    animations: {
+      idle: 100,
+    },
+    minIdleTime: 2000,
+    maxIdleTime: 5000,
+    },
+  },
 };
