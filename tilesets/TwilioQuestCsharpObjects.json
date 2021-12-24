@@ -18,13 +18,36 @@
  "spacing":0,
  "tilecount":5,
  "tiledversion":"1.6.0",
- "tileheight":106,
+ "tileheight":96,
  "tiles":[
         {
          "id":26,
          "image":"..\/objects\/dotnet-bot\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":0,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":0,
+                     "x":14.75,
+                     "y":21.25
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "type":"dotnet-bot"
         }, 
         {
@@ -42,36 +65,6 @@
          "type":"smoke"
         }, 
         {
-         "id":30,
-         "image":"..\/objects\/main-computer\/icon.png",
-         "imageheight":106,
-         "imagewidth":143,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "id":2,
-             "name":"",
-             "objects":[
-                    {
-                     "height":35,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":89,
-                     "x":28,
-                     "y":18
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "type":"main-computer"
-        }, 
-        {
          "id":31,
          "image":"..\/objects\/computer2\/icon.png",
          "imageheight":96,
@@ -79,18 +72,23 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
                      "height":28,
                      "id":1,
                      "name":"",
+                     "properties":[
+                            {
+                             "name":"isCollisionMask",
+                             "type":"bool",
+                             "value":true
+                            }],
                      "rotation":0,
-                     "type":"computer2",
+                     "type":"",
                      "visible":true,
                      "width":88,
-                     "x":26,
+                     "x":28,
                      "y":43
                     }],
              "opacity":1,
@@ -100,6 +98,13 @@
              "y":0
             },
          "type":"computer2"
+        }, 
+        {
+         "id":32,
+         "image":"..\/..\/.bundled\/objects\/scientist\/scientist4.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "type":"scientist"
         }],
  "tilewidth":144,
  "type":"tileset",
