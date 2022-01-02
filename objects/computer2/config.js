@@ -1,34 +1,30 @@
 module.exports = {
-    spriteSheets: {
-        all_computer_tiles: {
-            fileName: "Animated-Monitors-Sheet.png",
-            frameDimensions: {
-                width: 144,
-                height: 96,
+  animations: {
+    hacked: {
+      frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      frameRate: 14,
+    },
+  }, 
+  spriteSheets: {
+    computerMonitor: {
+        fileName: "Animated-Monitors-Sheet.png",
+        frameDimensions: {
+          width: 144,
+          height: 96,
         },
       },
     },
-    
-    animations: {
-      active: {
-        frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-        frameRate: 9,
-      }
-},
-    events: {
-        onMapDidLoad: (self) => {
-          self.playAnimation("active");
-        }
+  events:{
+    onMapDidLoad: (self) => {
+    self.playAnimation("hacked",true);
     },
-    properties: {
-        sprite: {
-            spriteSheet: "all_computer_tiles",
-            defaultFrameIndex: 0,
-            // We'll not use this feature, so we should turn it off
-            useGidAsDefaultFrameIndex: false,
-            // We don't need any layered sprites for the laser barrier
-            layers: [],
-          },   
+  },
+  properties: {
+    sprite: {
+      spriteSheet:"computerMonitor",
+      defaultFrameIndex: 0,
+      useGidAsDefaultFrameIndex: false,
+      layers: [],
     },
-
+  },
 };
