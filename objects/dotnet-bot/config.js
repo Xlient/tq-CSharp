@@ -2,7 +2,7 @@ module.exports = {
   animations: {
     idle: {
       frames: [0 , 1],
-      frameRate: 1,
+      frameRate: 2,
     },
     walk: {
       frames: [2 , 3, 4],
@@ -37,7 +37,7 @@ module.exports = {
     },
     idleAnimations: {
     animations: {
-      idle: 100,
+      idle: 500,
     },
     minIdleTime: 2000,
     maxIdleTime: 5000,

@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-Before you investigate the incident, you must install the latest version (5.0) of the .NET SDK to write code in C#. You can get the .NET  SDK from <a href="https://dotnet.microsoft.com/download">here</a>.
+Before you investigate the incident, you must install the latest version of the .NET SDK to write code in C#. You can get the .NET  SDK from <a href="https://dotnet.microsoft.com/download">here</a>.
 
 
 ## Verify Installation

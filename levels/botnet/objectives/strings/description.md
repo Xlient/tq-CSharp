@@ -9,7 +9,7 @@
 </ul>
 </div>
 
-As we've learned perviously the data type `String` is a collection of single characters (e.g 'p' 'o' 'p')  strung together to make a string (e.g "pop"). You can access or modify an individual character in a string by its index by using  index `[]` operator  ( Note: indexes are 0 based )
+As we've learned perviously the data type `string` is a collection of single characters (e.g 'p' 'o' 'p')  strung together to make a string (e.g "pop"). You can access or modify an individual character in a string by its index using the index `[]` operator  ( Note: indexes are 0 based )
 ```cs
  string example1 = "pop";
  char letter = example[0];
@@ -38,6 +38,7 @@ We can use [String Interpolation]("https://docs.microsoft.com/en-us/dotnet/cshar
 
 In our investigation of the attack we noticed that the Antivirus scan was stopped by a user , we managed to get a hold of a log file that records the activity of the applications on the network and the users.  Your task is to create a program to check to see if there is a user named `ANONYMOUS` in that excerpt then format and print the results.  An excerpt of the contents of the log file will be passed to you through the command-line.  
 
+Your output should look like this:
 ```txt
 Suspicious user found: False  
 ```

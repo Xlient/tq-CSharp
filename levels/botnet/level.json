@@ -1,7 +1,7 @@
 {
   "title": "Bot.NET",
   "description": "A recent security incident in the R&D center has lead the newly discovered dotnet bots to go crazy. Help Kyle get the situation under control to keep everyone safe",
-  "mission_icon": "mission_icon.png",
+  "mission_icon": "botnetIcon.png",
   "is_mission": true,
   "priority": 1,
   "backgroundMusic": "hackertheme_104771b",
@@ -12,5 +12,6 @@
   "flavorTextOverrides": {
     "bookshelf": "There's nothing like a good book."
   },
-  "objectives": ["example_objective"]
+  "objectives": ["install_dotnet", "what_is_dotnet", "first_Csharp_program","dates_times", "strings", "variables_and_dataTypes", "loops_pt1", "basic_operations"
+                ,"conditionals"]
 }
