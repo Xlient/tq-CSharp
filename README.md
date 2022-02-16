@@ -5,6 +5,10 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+## What is TwilioQuest?
+TwilioQuest is an educational video game designed to teach a new generation of developers how to change the world with code. TwilioQuest prepares you for real-world programming by helping you configure a local development environment and introducing tools used by professional programmers around the world. From learning how to use your terminal, to coding in Python, JavaScript, and contributing to Open Source projects, TwilioQuest will help you develop practical engineering skills. [Learn more about Twilioquest here](https://www.twilio.com/quest)
+
+
  
  ## Getting Started 
  
@@ -20,11 +24,12 @@
  
 ## All Levels
 
-###  ![kyle (2)](https://user-images.githubusercontent.com/35268101/127816489-98225ef2-a643-44d4-b80a-783154d5d0d9.png) 
-### Bot.Net  ![objective status](https://img.shields.io/badge/Objectives-In%20Progress-orange) 
+### <img alt="picture of a purple robot" src="https://avatars.githubusercontent.com/u/9011267?v=4" width="250" height="250"> <img alt="picture of a purple robot" src="https://dotnet.microsoft.com/static/images/anniversary/swimlane-subscribe-to-news-tips.png?v=yOjpn5SGXaqfRGhMRrZKmNa3-VqbJkIGAItVh0gtA4s" width="550" height="250"> 
+### Bot.Net  
+![objective status](https://img.shields.io/badge/Objectives-In%20Progress-orange) 
 #### **Proficiency level:** Basic
-**Storyline:** A recent security incident in the R&D center has lead the newly discovered dotnet bots to go crazy.
-Help Kyle get the situation under control to keep everyone safe and restore everything to normal functionality.
+**Storyline:** A recent security incident in the R&D center has lead the newly discovered .NET bots to go crazy.
+Help the scientists in the lab get the situation under control to keep everyone safe and restore everything to normal functionality - and learn to code in C# while you're at it!
 
 ![image](https://user-images.githubusercontent.com/35268101/135739437-56814291-898e-42fd-b658-07bf93b5ff50.png)
 
