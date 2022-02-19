@@ -11,7 +11,7 @@ TwilioQuest is an educational video game designed to teach a new generation of d
 
  
  ## Getting Started 
- > Note: This extention is currently a work in-progress
+ > Note: This extenstion is currently a work in-progress
  1. Clone this repository into a folder that holds all your twilioquest extension
  2. For directions on how to enable extentions in TwilioQuest click <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
 
