@@ -24,7 +24,7 @@ TwilioQuest is an educational video game designed to teach a new generation of d
  
 ## All Levels
 
-### <img alt="picture of a purple robot" src="https://avatars.githubusercontent.com/u/9011267?v=4" width="250" height="250"> <img alt="picture of a purple robot" src="https://dotnet.microsoft.com/static/images/anniversary/swimlane-subscribe-to-news-tips.png?v=yOjpn5SGXaqfRGhMRrZKmNa3-VqbJkIGAItVh0gtA4s" width="550" height="250"> 
+### <img alt="picture of a purple robot" src="https://avatars.githubusercontent.com/u/9011267?v=4" width="250" height="250"> 
 ### Bot.Net  
 ![objective status](https://img.shields.io/badge/Objectives-In%20Progress-orange) 
 #### **Proficiency level:** Basic
