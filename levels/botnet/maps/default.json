@@ -98,7 +98,7 @@
                         {
                          "name":"mapName",
                          "type":"string",
-                         "value":"research_lab"
+                         "value":"owl_corridor"
                         }, 
                         {
                          "name":"playerEntryPoint",

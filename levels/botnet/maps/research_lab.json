@@ -96,9 +96,14 @@
                          "value":"botnet"
                         }, 
                         {
+                         "name":"mapName",
+                         "type":"string",
+                         "value":"owl_corridor"
+                        }, 
+                        {
                          "name":"playerEntryPoint",
                          "type":"string",
-                         "value":"player_entry2"
+                         "value":"player_entry1"
                         }],
                  "rotation":0,
                  "type":"levelChange",
