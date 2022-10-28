@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+
 
 ## You can make sub headers with more information
 

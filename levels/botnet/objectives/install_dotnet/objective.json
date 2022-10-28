@@ -1,6 +1,6 @@
 {
   "title": "Rise of Bot.NET: Installation",
-  "description": "Install the .Net SDK 5.0 on your computer so you can write and execute C# code.",
+  "description": "Install the .Net SDK on your computer so you can write and execute C# code.",
   "validation_fields": [
     {
       "name": "answer1",

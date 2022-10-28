@@ -1,21 +1,46 @@
-# Example Objective
+# String of truth
 
 <div class="aside">
 <h3>To-Do List</h3>
 <ul>
-  <li>It's good to keep high level tasks here.</li>
-  <li>Let players know when to click <em>HACK</em>.</li>
+  <li>Clear your previous code.</li>
+  <li> Check to see if he given string contains the user "Anonymous"</li>
+  <li> Format the results and print them out and press <em>HACK</em>.</li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+As we've learned perviously the data type `string` is a collection of single characters (e.g 'p' 'o' 'p')  strung together to make a string (e.g "pop"). You can access or modify an individual character in a string by its index using the index `[]` operator  ( Note: indexes are 0 based )
+```cs
+ string example1 = "pop";
+ char letter = example[0];
+ // letter = 'p'
+```
+ Once you have a string , you may wonder if there anything else you can do with it?  Yes! There are many things you can do with strings in C#! You're welcome to view the [documentation]("https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0#methods") for a more comprehensive list of the things you can do with strings but for now we'll discuss just 3 of them briefly.
 
-## You can make sub headers with more information
+#### Search Strings
+ Strings can also be searched, the Contains() methods checks to see if a string has a substring inside it and
+ returns `true` or `false` if the value is present;
 
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
+ ```cs
+ string quote = "Life is a succession of lessons which must be lived to be understood";
+ Console.WriteLine(quote.Contains("succession of lessons"));
+ // output : True
+ ```
 
-```js
-const areCodeSamplesVeryHelpful = true;
+#### Formatting Strings
+We can use [String Interpolation]("https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated") to format strings. String Interpolation allows us to place variables (and more!) within a set of curly braces `{ }` inside our string.  Placing a `$` in front of your string, tells C# to later replace it with the value of the variable. Lets use our pervious example to demonstrate this
+ ```cs
+ string quote = "Life is a succession of lessons which must be lived to be understood.";
+ Console.WriteLine($"Ralph Waldo Emerson once said: \" {quote} \" ");
+
+ ```
+## Put it all together
+
+In our investigation of the attack we noticed that the Antivirus scan was stopped by a user , we managed to get a hold of a log file that records the activity of the applications on the network and the users.  Your task is to create a program to check to see if there is a user named `ANONYMOUS` in that excerpt then format and print the results.  An excerpt of the contents of the log file will be passed to you through the command-line.  
+
+Your output should look like this:
+```txt
+Suspicious user found: False  
 ```
 
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+When you're done click the  _HACK_  button.
