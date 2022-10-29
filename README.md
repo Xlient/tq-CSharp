@@ -1,3 +1,5 @@
+> ⚠ This extension is currently under construction and therefore is unstable
+
 #  TwilioQuest Extension for missions in C#
 ![image](https://user-images.githubusercontent.com/35268101/123012588-81b7f480-d390-11eb-84eb-c061979f6f69.png)
 
@@ -11,7 +13,6 @@ TwilioQuest is an educational video game designed to teach a new generation of d
 
  
  ## Getting Started 
- > Note: This extenstion is currently a work in-progress
  1. Clone this repository into a folder that holds all your twilioquest extension
  2. For directions on how to enable extentions in TwilioQuest click <a href="https://github.com/TwilioQuest/twilioquest-extension-template#getting-started">here</a>
 
@@ -22,7 +23,7 @@ TwilioQuest is an educational video game designed to teach a new generation of d
  Keep and eye out for `Help wanted` or `good first issue` labels in the issues tab! Or just jump in.
  
  
-## All Levels
+## Levels
 
 ### <img alt="picture of a purple robot" src="https://avatars.githubusercontent.com/u/9011267?v=4" width="250" height="250"> 
 ### Bot.Net  
@@ -31,15 +32,6 @@ TwilioQuest is an educational video game designed to teach a new generation of d
 **Storyline:** A recent security incident in the R&D center has lead the newly discovered .NET bots to go crazy.
 Help the scientists in the lab get the situation under control to keep everyone safe and restore everything to normal functionality - and learn to code in C# while you're at it!
 
-![image](https://user-images.githubusercontent.com/35268101/135739437-56814291-898e-42fd-b658-07bf93b5ff50.png)
-
-![image](https://user-images.githubusercontent.com/35268101/135739387-020a2439-ca8f-439a-b547-368160426cde.png)
-![image](https://user-images.githubusercontent.com/35268101/135739459-15b82cc8-e944-41ec-b6de-376e54c44e91.png)
-
-
-### Warped City (Concept)
-
-![image](https://user-images.githubusercontent.com/35268101/127815884-bc236061-70b0-4384-8fc2-dc094b230b37.png)
 
 ## Special Mentions
    ![Special mentions](https://user-images.githubusercontent.com/35268101/127819876-2f071781-01ee-4f27-a714-a05ee632c7da.gif)
@@ -54,4 +46,7 @@ Help the scientists in the lab get the situation under control to keep everyone 
  - [Exuin](https://emily2.itch.io/)
  - [LimeZu](https://limezu.itch.io/)
  - More to be listed . .
-   
+ 
+## Other Extentions
+  - [Cosmos](https://github.com/Xlient/Cosmos)
+ 
