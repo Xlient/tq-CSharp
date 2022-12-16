@@ -315,6 +315,22 @@
                  "height":0,
                  "id":8,
                  "name":"exit",
+                 "properties":[
+                        {
+                         "name":"levelName",
+                         "type":"string",
+                         "value":"botnet"
+                        }, 
+                        {
+                         "name":"mapName",
+                         "type":"string",
+                         "value":"research_lab_entry"
+                        }, 
+                        {
+                         "name":"playerEntryPoint",
+                         "type":"string",
+                         "value":"player_entry1"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,

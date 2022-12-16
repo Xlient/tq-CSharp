@@ -71,12 +71,17 @@
                         {
                          "name":"levelName",
                          "type":"string",
-                         "value":"fog_owl"
+                         "value":"botnet"
+                        }, 
+                        {
+                         "name":"mapName",
+                         "type":"string",
+                         "value":"research_lab_entry"
                         }, 
                         {
                          "name":"playerEntryPoint",
                          "type":"string",
-                         "value":"player_entry2"
+                         "value":"player_entry1"
                         }],
                  "rotation":0,
                  "type":"levelChange",
@@ -98,7 +103,7 @@
                         {
                          "name":"mapName",
                          "type":"string",
-                         "value":"research_lab"
+                         "value":"research_lab_2"
                         }, 
                         {
                          "name":"playerEntryPoint",
@@ -152,6 +157,11 @@
                          "name":"hackable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"first_Csharp_program"
                         }],
                  "rotation":0,
                  "type":"",
@@ -208,18 +218,6 @@
                  "y":679.333333333333
                 }, 
                 {
-                 "gid":10012,
-                 "height":80.6666666666666,
-                 "id":171,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":456,
-                 "y":720
-                }, 
-                {
                  "gid":11017,
                  "height":32,
                  "id":196,
@@ -228,8 +226,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":267.333333333333,
-                 "y":455
+                 "x":284.333333333333,
+                 "y":451
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -277,7 +275,7 @@
          "y":0
         }],
  "nextlayerid":46,
- "nextobjectid":203,
+ "nextobjectid":204,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",

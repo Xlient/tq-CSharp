@@ -105,6 +105,12 @@
                  "height":79.3333333333333,
                  "id":3,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"install_dotnet"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -117,6 +123,12 @@
                  "height":72,
                  "id":4,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"install_dotnet"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -139,7 +151,23 @@
                 {
                  "height":61.3333333333333,
                  "id":7,
-                 "name":"exit_lab_hallway",
+                 "name":"exit_lab",
+                 "properties":[
+                        {
+                         "name":"levelName",
+                         "type":"string",
+                         "value":"botnet"
+                        }, 
+                        {
+                         "name":"mapName",
+                         "type":"string",
+                         "value":"RDLab"
+                        }, 
+                        {
+                         "name":"playerEntryPoint",
+                         "type":"string",
+                         "value":"player_entry1"
+                        }],
                  "rotation":0,
                  "type":"exit",
                  "visible":true,
@@ -209,16 +237,17 @@
          "id":5,
          "name":"collision",
          "opacity":1,
-         "properties":
-            {
-             "collision":true,
-             "hidden":true
-            },
-         "propertytypes":
-            {
-             "collision":"bool",
-             "hidden":"bool"
-            },
+         "properties":[
+                {
+                 "name":"collision",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"hidden",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":20,
@@ -264,6 +293,6 @@
         }],
  "tilewidth":24,
  "type":"map",
- "version":1.1,
+ "version":"1.8",
  "width":20
 }

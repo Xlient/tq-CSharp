@@ -159,6 +159,12 @@
                  "height":24,
                  "id":278,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"variables_and_dataTypes"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -349,6 +355,18 @@
                  "width":32,
                  "x":216.666666666667,
                  "y":785.333333333333
+                }, 
+                {
+                 "gid":10013,
+                 "height":72,
+                 "id":310,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":421,
+                 "y":618
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -396,7 +414,7 @@
          "y":0
         }],
  "nextlayerid":50,
- "nextobjectid":310,
+ "nextobjectid":312,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
