@@ -47,6 +47,6 @@ Help the scientists in the lab get the situation under control to keep everyone 
  - [LimeZu](https://limezu.itch.io/)
  - More to be listed . .
  
-## Other Extentions
+## Other Extensions
   - [Cosmos](https://github.com/Xlient/Cosmos)
  
