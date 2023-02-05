@@ -9,11 +9,11 @@
 </ul>
 </div>
 
-The activities from here on will require that you create a C# project on your computer.
-To do this first create a folder to hold your project. Once you have created a folder, you can do one of the following to create your project:
+The activities from here on will require that you create a C# project on your computer via the dotnet Command line interface or CLI or Visual studio
+To do this first open your terminal and create a folder to hold your project. Once you have created a folder, you can do one of the following to create your project:
 
-1. Inside the new folder you made, type in:
-  <code>dotnet new console  -n name of your project </code> in your terminal
+1. Navigate to the folder you just created and inside the new folder you made, type in the following command:
+  <code>dotnet new console  -n <name of your project> </code> in your terminal
 
 Here is an example.
 ```cmd
