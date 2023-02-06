@@ -103,18 +103,5 @@ dist
 
 # TernJS port file
 .tern-port
-levels/botnet/validation/validate_csharp/bin/Debug/net5.0/validate.runtimeconfig.json
-levels/botnet/validation/validate_csharp/bin/Debug/net5.0/validate.runtimeconfig.dev.json
-levels/botnet/validation/validate_csharp/bin/Debug/net5.0/validate.deps.json
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
-levels/botnet/validation/validate_csharp/obj/validate.csproj.nuget.g.targets
-levels/botnet/validation/validate_csharp/obj/project.assets.json
-levels/botnet/validation/validate_csharp/obj/validate.csproj.nuget.dgspec.json
-levels/botnet/validation/validate_csharp/obj/project.nuget.cache
-levels/botnet/validation/validate_csharp/obj/validate.csproj.nuget.g.props
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.assets.cache
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.csproj.AssemblyReference.cache
-levels/botnet/validation/validate_csharp/obj/Debug/net5.0/validate.GeneratedMSBuildEditorConfig.editorconfig
+levels/botnet/validation/validate_csharp/bin/*
+levels/botnet/validation/validate_csharp/obj/*
