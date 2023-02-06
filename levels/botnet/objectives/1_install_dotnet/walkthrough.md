@@ -1,5 +1,3 @@
 # The "Help" Tab
 
-We may remove this tab and content in the future, but in the current iteration of TwilioQuest, this is where you would put more hand-holdy content intended to guide the player through what needed to be done.
-
-We find that what works better is linking to external resources on the web, rather than recreatign a tutorial here.
+[![](https://i.ytimg.com/vi/LlTHXtKIb3E/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBol5Vu9JM9tje4w0GmgQElErd0MA)](https://www.youtube.com/watch?v=LlTHXtKIb3E&list=PLdo4fOcmZ0oWoazjhXQzBKMrFuArxpW80&index=3&ab_channel=dotnet)
