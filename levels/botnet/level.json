@@ -12,6 +12,6 @@
   "flavorTextOverrides": {
     "bookshelf": "There's nothing like a good book."
   },
-  "objectives": ["install_dotnet", "what_is_dotnet", "first_Csharp_program","dates_times", "strings", "variables_and_dataTypes", "loops_pt1", "basic_operations"
+  "objectives": ["1_install_dotnet", "what_is_dotnet", "2_create_project","3_first_Csharp_program","4_variables_and_dataTypes", "5_boolean_expressions" , "6_basic_operations", "7_decision_statements", "8_decision_statements_pt2", "9_strings"
                 ,"conditionals"]
 }

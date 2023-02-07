@@ -1,5 +1,8 @@
+
 # The "Help" Tab
 
+<iframe width="560" height="315" src="https://youtu.be/8bOoiftm5wM" frameborder="0" allowfullscreen> </iframe>
 
+## Need more help ?
 
-To get some context on the program you just made check out this <a href="https://channel9.msdn.com/Series/CSharp-101/CSharp-Hello-World-Explained?term=c%23&lang-en=true"> video </a>
+Get support in the ![community discussions](https://github.com/Xlient/tq-CSharp/discussions/categories/mission-help) for this extension

@@ -161,7 +161,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"first_Csharp_program"
+                         "value":"3_first_Csharp_program"
                         }],
                  "rotation":0,
                  "type":"",
@@ -196,7 +196,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"create_project"
+                         "value":"2_create_project"
                         }],
                  "rotation":0,
                  "type":"",

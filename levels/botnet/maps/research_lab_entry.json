@@ -127,7 +127,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"install_dotnet"
+                         "value":"1_install_dotnet"
                         }],
                  "rotation":0,
                  "type":"",
@@ -169,7 +169,7 @@
                          "value":"player_entry1"
                         }],
                  "rotation":0,
-                 "type":"exit",
+                 "type":"levelChange",
                  "visible":true,
                  "width":7.33333333333331,
                  "x":470,

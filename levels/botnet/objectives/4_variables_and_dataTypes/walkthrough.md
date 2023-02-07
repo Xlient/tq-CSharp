@@ -1,5 +1,7 @@
 # The "Help" Tab
+ Watch the video below for an in-depth overview of variables and data types
+<iframe width="560" height="315" src="https://youtu.be/0QUgvfuKvWU" frameborder="0" allowfullscreen> </iframe>
 
-We may remove this tab and content in the future, but in the current iteration of TwilioQuest, this is where you would put more hand-holdy content intended to guide the player through what needed to be done.
+## Need more help ?
 
-We find that what works better is linking to external resources on the web, rather than recreatign a tutorial here.
+Get support in the ![community discussions](https://github.com/Xlient/tq-CSharp/discussions/categories/mission-help) for this extension

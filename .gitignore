@@ -103,5 +103,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+
 levels/botnet/validation/validate_csharp/bin/*
 levels/botnet/validation/validate_csharp/obj/*
+levels/botnet/validation/test/obj/*
