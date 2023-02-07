@@ -312,7 +312,7 @@
                  "y":197.333333333333
                 }, 
                 {
-                 "height":0,
+                 "height":19.5,
                  "id":8,
                  "name":"exit",
                  "properties":[
@@ -332,11 +332,11 @@
                          "value":"player_entry1"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"levelChange",
                  "visible":true,
-                 "width":0,
-                 "x":174,
-                 "y":196
+                 "width":29,
+                 "x":163.5,
+                 "y":191
                 }, 
                 {
                  "gid":33,

@@ -17,7 +17,7 @@ when you ran
 dotnet new console -n myapp
 ```
 
-A new console application was made for you with some code to get you started. It's a simple program that prints the message "Hello World!". 
+A new console application was made for you with some code to get you started. It's a simple program that prints the message "Hello World!" to your console. See the Help section to learn more about the " Hello world application". 
 It used the  <code>Console.WriteLine()</code> method to print that message. 
 ## Your task
 

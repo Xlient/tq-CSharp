@@ -1,4 +1,9 @@
+
 # The "Help" Tab
 
-## Creating a project with Visual Studio
-![[](https://i.ytimg.com/vi/G1-Zfr9-3zs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvPZMpceZTugkgx0IDu0AZ7YQWNA)](https://youtu.be/G1-Zfr9-3zs?t=136)
+## Creating a console application with Visual Studio
+<iframe width="560" height="315" src="https://youtu.be/8bOoiftm5wM?t=89" frameborder="0" allowfullscreen> </iframe>
+
+## Need more help ?
+
+Get support in the ![community discussions](https://github.com/Xlient/tq-CSharp/discussions/categories/mission-help) for this extension
