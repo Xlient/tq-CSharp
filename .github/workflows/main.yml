@@ -10,8 +10,7 @@ jobs:
       steps:
           - uses: actions/checkout@v3
             with:
-                fetch_depth: 2
+                fetch-depth: 2
           - run: |
-             
-             echo "$(git diff HEAD^ HEAD)" >> $GITHUB_OUTPUT
+             echo "$(git diff HEAD^1 HEAD)" >> $GITHUB_OUTPUT
     
