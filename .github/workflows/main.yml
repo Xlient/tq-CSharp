@@ -12,6 +12,6 @@ jobs:
             with:
                 fetch_depth: 2
           - run: |
-             mydiff = git diff HEAD^ HEAD
-             echo "$mydiff" >> $GITHUB_OUTPUT
+             
+             echo "$(git diff HEAD^ HEAD)" >> $GITHUB_OUTPUT
     
