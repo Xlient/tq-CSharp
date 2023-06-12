@@ -1,0 +1,17 @@
+on:
+  pull_request:
+     paths:
+        - '**/validator*'
+jobs:
+
+   test_diff:
+      name: Test
+      runs-on: ubuntu-latest
+      steps:
+          - uses: actions/checkout@v3
+            with:
+                fetch_depth: 2
+          - run: |
+             diff = git diff HEAD^ HEAD
+             echo "$diff" >> $GITHUB_OUTPUT
+    
