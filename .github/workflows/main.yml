@@ -12,5 +12,6 @@ jobs:
             with:
                 fetch-depth: 2
           - run: |
-             echo "$(git diff -G'foobar' HEAD^1 HEAD --name-only)" >> $GITHUB_OUTPUT
+             d=$(git diff -G'const' HEAD^1 HEAD --name-only)
+             echo "$d" >> $GITHUB_OUTPUT
     
