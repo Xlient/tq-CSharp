@@ -12,5 +12,5 @@ jobs:
             with:
                 fetch-depth: 2
           - run: |
-             echo "$(git diff -G'foobar\d+' HEAD^1 HEAD)" >> $GITHUB_OUTPUT
+             echo "$(git diff -G'foobar' HEAD^1 HEAD)" >> $GITHUB_OUTPUT
     
