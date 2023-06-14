@@ -17,7 +17,7 @@ jobs:
           - id: one
             run: |
              d=$(git diff -G'foobar' HEAD^1 HEAD --name-only)
-             if [[ $d == *validator*]]; then
+             if [[ $d == *validator* ]]; then
                echo "result=yes" >> $GITHUB_OUTPUT
              fi
    
