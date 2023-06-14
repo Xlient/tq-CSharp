@@ -4,14 +4,30 @@ on:
         - '**/validator*'
 jobs:
 
-   test_diff:
+   job1:
       name: Test
       runs-on: ubuntu-latest
+      outputs:
+          result: ${{ steps.one.outputs.result}}
       steps:
           - uses: actions/checkout@v3
             with:
                 fetch-depth: 2
-          - run: |
-             d=$(git diff -G'const' HEAD^1 HEAD --name-only)
-             echo "$d" >> $GITHUB_OUTPUT
+
+          - id: one
+            run: |
+             d=$(git diff -G'foobar' HEAD^1 HEAD --name-only)
+             if [[ $d == *validator*]]; then
+               echo "result=yes" >> $GITHUB_OUTPUT
+             fi
+   
+   job2:
+      name: test github output
+      needs: job1
+      runs-on: ubuntu-latest
+      if: needs.job1.outputs.result == 'yes'
+      steps:
+         - run: echo "it worked"
+
+            
     
