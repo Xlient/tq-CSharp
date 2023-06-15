@@ -15,8 +15,10 @@ jobs:
                 fetch-depth: 2
 
           - id: one
+            env:
+               PATTERN: '@[a-z0-9]+'
             run: |
-             d=$(git diff -G'@[a-z0-9]+' HEAD^1 HEAD --name-only)
+             d=$(git diff -G'$PATTERN' HEAD^1 HEAD --name-only)
 
              echo "$d"
 
