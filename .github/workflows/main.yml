@@ -16,7 +16,10 @@ jobs:
 
           - id: one
             run: |
-             d=$(git diff -G'foobar' HEAD^1 HEAD --name-only)
+             d=$(git diff -G'foobar\d+' HEAD^1 HEAD --name-only)
+
+             echo "$d"
+
              if [[ -n $d ]]; then
                echo "result=yes" >> $GITHUB_OUTPUT
              else
