@@ -16,7 +16,7 @@ jobs:
 
           - id: one
             run: |
-             d=$(git diff -G'foobar[0-9]+' HEAD^1 HEAD --name-only)
+             d=$(git diff -G'@[a-z0-9]+' HEAD^1 HEAD --name-only)
 
              echo "$d"
 
