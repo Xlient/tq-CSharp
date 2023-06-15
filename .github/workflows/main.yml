@@ -19,7 +19,7 @@ jobs:
 
           - id: one
             run: |
-             d=$(git diff -G'$PATTERN' HEAD^1 HEAD --name-only)
+             d=$(git diff -G$PATTERN HEAD^1 HEAD --name-only)
 
              echo "$d"
 
