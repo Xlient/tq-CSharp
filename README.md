@@ -10,7 +10,6 @@
 ## What is TwilioQuest?
 TwilioQuest is an educational video game designed to teach a new generation of developers how to change the world with code. TwilioQuest prepares you for real-world programming by helping you configure a local development environment and introducing tools used by professional programmers around the world. From learning how to use your terminal, to coding in Python, JavaScript, and contributing to Open Source projects, TwilioQuest will help you develop practical engineering skills. [Learn more about Twilioquest here](https://www.twilio.com/quest)
 
-
  
  ## Getting Started 
  1. Clone this repository into a folder that holds all your twilioquest extension
