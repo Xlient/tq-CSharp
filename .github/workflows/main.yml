@@ -33,17 +33,11 @@ jobs:
    job2:
       name: Get and set PAT
       runs-on: ubuntu-latest
-      permissions: write-all
+      environment: herald
+      env:
+         TEXT: ${{ secrets.FOO }}
       steps:
-         - uses: actions/github-script@v6
-           with:
-             script: |
-               const s = await github.rest.actions.getRepoSecret({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               secret_name: 'FOO',
-               });
+         - run: echo $TEXT
 
-               console.log(s)
             
     
