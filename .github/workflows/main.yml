@@ -11,6 +11,7 @@ jobs:
       runs-on: ubuntu-latest
       env:
          PATTERN: '@[a-z0-9]+'
+         GH_TOKEN: ${{ github.token }}
       outputs:
           result: ${{ steps.one.outputs.result}}
       steps:
