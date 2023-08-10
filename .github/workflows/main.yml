@@ -30,25 +30,22 @@ jobs:
               exit 1
              fi
 
-   set_credentials:
+   job2:
       name: Get and set PAT
       runs-on: ubuntu-latest
       permissions:
          contents: read
          pull-requests: write
-      env:
-        GH_TOKEN: ${{ github.token }}
-        OWNER: ${{ github.repository_owner}}
-        REPO: ${{ github.repository }}
-        SECRET_NAME: FOO
-
       steps:
-        - name: Get github pat from secrets
-          run: |
-           $( gh api \
-           -H "Accept: application/vnd.github+json" \
-           -H "X-GitHub-Api-Version: 2022-11-28" \
-           /repos/$OWNER/$REPO/actions/secrets/$SECRET_NAME ) >> $GITHUB_PAT
-           echo $GITHUB_PAT
+         - uses: actions/github-script@v6
+           with:
+             script: |
+               const s = await github.rest.actions.getRepoSecret({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               secret_name: 'FOO',
+               });
+
+               console.log(s)
             
     
