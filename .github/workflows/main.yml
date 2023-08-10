@@ -1,0 +1,43 @@
+on:
+  pull_request:
+     paths:
+        - '**/validator*'
+env:
+   GITHUB_PAT: ''
+jobs:
+
+   job1:
+      name: Test
+      runs-on: ubuntu-latest
+      env:
+         PATTERN: '@[a-z0-9]+'
+         GH_TOKEN: ${{ github.token }}
+      outputs:
+          result: ${{ steps.one.outputs.result}}
+      steps:
+          - uses: actions/checkout@v3
+            with:
+                fetch-depth: 2
+
+          - id: one
+            run: |
+             d=$(gh pr diff | grep -E $PATTERN)
+
+             echo "$d"
+             if [[ -n $d ]]; then
+               echo "result=yes" >> $GITHUB_OUTPUT
+             else
+              exit 1
+             fi
+
+   job2:
+      name: Get and set PAT
+      runs-on: ubuntu-latest
+      environment: herald
+      env:
+         TEXT: ${{ secrets.FOO }}
+      steps:
+         - run: echo $TEXT
+
+            
+    
