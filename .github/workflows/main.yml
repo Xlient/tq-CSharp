@@ -2,7 +2,8 @@ on:
   pull_request:
      paths:
         - '**/validator*'
-   
+env:
+   GITHUB_PAT: ''
 jobs:
 
    job1:
@@ -19,24 +20,32 @@ jobs:
 
           - id: one
             run: |
-             d=$(git diff -G$PATTERN HEAD^1 HEAD)
+             d=$(gh pr diff | grep -E $PATTERN)
 
              echo "$d"
-             echo "$(git show HEAD^1)"
-
              if [[ -n $d ]]; then
                echo "result=yes" >> $GITHUB_OUTPUT
              else
               exit 1
              fi
-   
-   job2:
-      name: test github output
+
+   set_credentials:
+      name: Get and set PAT
       needs: job1
       runs-on: ubuntu-latest
-      if: needs.job1.outputs.result == 'yes'
-      steps:
-         - run: echo "it worked"
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+        OWNER: ${{ github.repository_owner}}
+        REPO: ${{ github.repository }}
+        SECRET_NAME: FOO
 
+      steps:
+        - name: Get github pat from secrets
+          run: |
+           $( gh api \
+           -H "Accept: application/vnd.github+json" \
+           -H "X-GitHub-Api-Version: 2022-11-28" \
+           /repos/$OWNER/$REPO/actions/secrets/$SECRET_NAME ) >> $GITHUB_PAT
+           echo $GITHUB_PAT
             
     
