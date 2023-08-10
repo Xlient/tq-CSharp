@@ -32,7 +32,6 @@ jobs:
 
    set_credentials:
       name: Get and set PAT
-      needs: job1
       runs-on: ubuntu-latest
       permissions:
          contents: read
