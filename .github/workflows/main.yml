@@ -33,9 +33,7 @@ jobs:
    job2:
       name: Get and set PAT
       runs-on: ubuntu-latest
-      permissions:
-         contents: read
-         pull-requests: write
+      permissions: write-all
       steps:
          - uses: actions/github-script@v6
            with:
