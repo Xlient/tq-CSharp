@@ -33,8 +33,11 @@ jobs:
       name: Get and set PAT
       needs: job1
       runs-on: ubuntu-latest
+      permissions:
+         contents: read
+         pull-requests: write
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        GH_TOKEN: ${{ github.token }}
         OWNER: ${{ github.repository_owner}}
         REPO: ${{ github.repository }}
         SECRET_NAME: FOO
